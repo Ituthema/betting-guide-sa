@@ -1,0 +1,802 @@
+[
+  {
+    "slug": "/",
+    "title": "South African Betting Guides and Bookmaker Reviews",
+    "shortTitle": "Home",
+    "category": "home",
+    "description": "Compare South African bookmakers, understand promotions, and learn the basics of sports betting and casino games with clear editorial disclosures.",
+    "intro": "A practical reference for understanding bookmaker products, promotional terms, sports markets and casino games in South Africa.",
+    "sections": [
+      {
+        "heading": "Start with the essentials",
+        "body": "Before opening an account or using a promotion, check the operator’s current terms, identity-verification requirements, payment rules, withdrawal conditions and applicable provincial licensing information. A promotion is not a guarantee of value or winnings."
+      },
+      {
+        "heading": "Browse by topic",
+        "body": "Use the categories below to explore bookmaker reviews, promotion explainers, sports-specific guides and casino content. Pages distinguish editorial guidance from details that must be confirmed with an operator or regulator."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/bookmakers/",
+    "title": "Bookmaker Reviews and Comparisons in South Africa",
+    "shortTitle": "Bookmaker Reviews",
+    "category": "bookmakers",
+    "description": "Browse structured South African bookmaker review pages, with verification status and a checklist for evaluating operator terms, payments, products and support.",
+    "intro": "Reviews are organised around consistent criteria rather than unverified rankings or headline bonus amounts.",
+    "sections": [
+      {
+        "heading": "How to evaluate a bookmaker",
+        "body": "Check the operator’s legal entity and licence information with the relevant regulator; read the current terms; compare deposit and withdrawal rules; verify available sports and markets; test customer-support routes; and understand account limits and dispute procedures."
+      },
+      {
+        "heading": "How this directory is maintained",
+        "body": "Each operator record includes source fields and a verification state. A page must not be described as independently verified until a reviewer records the evidence, source URL and review date."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/promotions/",
+    "title": "Betting Promotions and Bonus Terms Explained",
+    "shortTitle": "Promotions",
+    "category": "promotions",
+    "description": "Learn how to assess South African betting promotions, wagering requirements, eligibility rules, expiry dates and withdrawal restrictions before opting in.",
+    "intro": "Promotional terms can change. Treat any offer as unconfirmed until the operator’s current terms have been checked.",
+    "sections": [
+      {
+        "heading": "What to verify before opting in",
+        "body": "Read eligibility requirements, minimum qualifying deposits, qualifying markets, minimum odds, wagering or turnover requirements, expiry periods, maximum conversion or withdrawal limits, excluded payment methods and any opt-in steps. Keep a copy of the terms shown when you accept an offer."
+      },
+      {
+        "heading": "Editorial policy for offer listings",
+        "body": "This release intentionally does not publish unverified bonus amounts as live offers. A promotion record needs an official source URL, a captured terms reference, a verification date and a named reviewer before it can be labelled verified."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/sports/",
+    "title": "Sports Betting Guides",
+    "shortTitle": "Sports Guides",
+    "category": "sports",
+    "description": "Explore sport-specific betting explainers covering markets, settlement rules, odds formats and risk factors.",
+    "intro": "Learn how common markets work before comparing prices or placing a bet.",
+    "sections": [
+      {
+        "heading": "Understand the market first",
+        "body": "Confirm the market definition, whether extra time counts, how abandoned or postponed events are settled, and whether the selection is pre-match or in-play. Rules differ between operators and market types."
+      },
+      {
+        "heading": "Use statistics carefully",
+        "body": "Historical results do not guarantee future outcomes. Sample size, opponent strength, injuries, line-ups, weather and competition context can change how relevant a statistic is."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/casino/",
+    "title": "Online Casino and Slots Guides",
+    "shortTitle": "Casino",
+    "category": "casino",
+    "description": "Read explanatory guides to online casino games, slot mechanics, return-to-player figures, volatility and responsible gambling.",
+    "intro": "Casino games involve financial risk. Game mechanics and published return figures should be checked against the game provider’s current information.",
+    "sections": [
+      {
+        "heading": "Understand game information",
+        "body": "Return to player (RTP) is a theoretical long-run percentage, not a prediction of an individual session. Volatility describes how outcomes may be distributed; it does not create a reliable strategy for overcoming the house edge."
+      },
+      {
+        "heading": "Before playing",
+        "body": "Confirm the operator’s legal status, game rules, payment terms, age requirements and available player-protection tools. Never treat a game as a source of income or chase losses."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/guides/beginners/",
+    "title": "Beginner’s Guide to Sports Betting",
+    "shortTitle": "Beginner Guide",
+    "category": "guide",
+    "description": "A beginner-friendly introduction to odds, markets, bet slips, settlement rules and risk management for sports betting.",
+    "intro": "Sports betting is uncertain and can result in losing money. Learn the mechanics before deciding whether to participate.",
+    "sections": [
+      {
+        "heading": "How odds work",
+        "body": "Decimal odds show the total return per unit staked if a selection wins, including the original stake. For example, decimal odds of 2.00 imply a gross return of R20 on a R10 winning stake, before any applicable deductions. This example explains arithmetic; it is not a recommendation."
+      },
+      {
+        "heading": "Set limits in advance",
+        "body": "Only consider money you can afford to lose, set time and spending limits before starting, and do not borrow or chase losses. Taking a break or not betting is always a valid choice."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/guides/odds/",
+    "title": "Understanding Betting Odds",
+    "shortTitle": "Betting Odds",
+    "category": "guide",
+    "description": "Understand decimal odds, implied probability, returns and why bookmaker margins mean implied probabilities may not sum to 100%.",
+    "intro": "Odds describe the price of a selection, not certainty about the result.",
+    "sections": [
+      {
+        "heading": "Decimal odds and implied probability",
+        "body": "A simple implied-probability calculation is 1 divided by decimal odds. At odds of 2.50, that is 40% before accounting for margin or uncertainty in the estimate. This is a mathematical conversion, not proof that an outcome has a 40% chance of occurring."
+      },
+      {
+        "heading": "Compare like with like",
+        "body": "Check that markets use the same settlement rules and timing before comparing prices. Differences in market definitions can make apparent price comparisons misleading."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/guides/bankroll/",
+    "title": "Bankroll and Risk Management",
+    "shortTitle": "Bankroll Management",
+    "category": "guide",
+    "description": "Practical information about setting spending limits, tracking gambling expenditure and avoiding loss-chasing behaviour.",
+    "intro": "There is no staking system that removes gambling risk or guarantees a profit.",
+    "sections": [
+      {
+        "heading": "Set a hard limit",
+        "body": "Decide on a fixed entertainment budget that does not affect rent, food, transport, debt payments or savings. Do not increase it to recover losses, and stop when the limit is reached."
+      },
+      {
+        "heading": "Recognise warning signs",
+        "body": "Chasing losses, hiding activity, borrowing to gamble or feeling unable to stop are reasons to pause and seek support. Self-exclusion and blocking tools may be available through operators and support organisations."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/guides/responsible-gambling/",
+    "title": "Responsible Gambling and Support",
+    "shortTitle": "Responsible Gambling",
+    "category": "guide",
+    "description": "Understand gambling risks, warning signs, limit-setting, self-exclusion and where to seek support.",
+    "intro": "Gambling should not be used as a way to make money, manage debt or solve financial problems.",
+    "sections": [
+      {
+        "heading": "Practical safeguards",
+        "body": "Set limits before play, avoid gambling when distressed or intoxicated, take regular breaks, and never borrow to gamble. Use blocking or self-exclusion tools if gambling is becoming difficult to control."
+      },
+      {
+        "heading": "Getting help",
+        "body": "Before publishing local helplines or service details, verify the number, service name, availability and geographic coverage against the provider’s official source. This starter release does not certify any helpline listing."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/sports/soccer/",
+    "title": "Soccer Betting Guide",
+    "shortTitle": "Soccer",
+    "category": "sports",
+    "description": "An introduction to soccer betting markets, including match result, draw-no-bet, totals and both-teams-to-score markets.",
+    "intro": "Market names and settlement conditions vary by operator. Read the specific rules before placing a bet.",
+    "sections": [
+      {
+        "heading": "Common markets",
+        "body": "Match result typically covers home win, draw and away win within the defined match period. Totals markets concern the number of goals, while both-teams-to-score markets concern whether each side scores. Verify treatment of extra time, abandoned matches and postponements."
+      },
+      {
+        "heading": "Use match data responsibly",
+        "body": "Recent results alone are not enough to assess a fixture. Opponent strength, home and away performance, goal rates, injuries, suspensions and confirmed line-ups may matter, and data quality varies across competitions."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/sports/rugby/",
+    "title": "Rugby Betting Guide",
+    "shortTitle": "Rugby",
+    "category": "sports",
+    "description": "Learn the basics of rugby betting markets, handicap lines, totals and settlement rules.",
+    "intro": "Rugby competitions can use different formats and market rules; verify the exact event and market terms.",
+    "sections": [
+      {
+        "heading": "Markets to understand",
+        "body": "Common market families include match winner, handicap, points totals and player or team performance markets where offered. Check whether the market covers regulation time only and how extra time is handled."
+      },
+      {
+        "heading": "Context matters",
+        "body": "Team selection, injuries, weather, venue and competition format can influence performance. Statistical trends are descriptive, not guarantees."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/sports/cricket/",
+    "title": "Cricket Betting Guide",
+    "shortTitle": "Cricket",
+    "category": "sports",
+    "description": "An introduction to cricket betting markets and format-specific rules for T20, one-day and Test cricket.",
+    "intro": "Cricket settlement rules may depend on format, overs completed, weather and official result rules.",
+    "sections": [
+      {
+        "heading": "Check the format",
+        "body": "Before comparing markets, confirm whether the event is a T20, one-day international, franchise match or Test, and check rules for abandoned or shortened matches, ties and no-results."
+      },
+      {
+        "heading": "Interpret performance data",
+        "body": "Pitch, weather, toss, team selection, player availability and format-specific statistics can materially affect interpretation. Small samples can produce misleading conclusions."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/sports/tennis/",
+    "title": "Tennis Betting Guide",
+    "shortTitle": "Tennis",
+    "category": "sports",
+    "description": "Understand tennis match-winner, set, game and total markets, including retirement and walkover settlement rules.",
+    "intro": "Tennis markets can have specific retirement, walkover and match-completion rules.",
+    "sections": [
+      {
+        "heading": "Read the rules",
+        "body": "Check whether bets stand if a player retires, how walkovers are handled, whether the market covers sets or games, and whether the event is best-of-three or best-of-five."
+      },
+      {
+        "heading": "Avoid over-reading head-to-head data",
+        "body": "Surface, recent workload, injury status, opponent quality and sample size affect how historical results should be interpreted."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/sports/horse-racing/",
+    "title": "Horse Racing Betting Guide",
+    "shortTitle": "Horse Racing",
+    "category": "sports",
+    "description": "An introduction to horse-racing bet types, race cards, non-runners and settlement terms.",
+    "intro": "Racing markets and deductions can be complex; read the applicable rules and race information carefully.",
+    "sections": [
+      {
+        "heading": "Understand the bet type",
+        "body": "Win, place, each-way and exotic bets have different conditions. Confirm the number of places paid, dead-heat rules, non-runner treatment and any deductions before betting."
+      },
+      {
+        "heading": "Use current race information",
+        "body": "Declarations, withdrawals, track conditions, distance and race-class changes may affect interpretation. Past performance cannot guarantee a future result."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/sports/esports/",
+    "title": "eSports Betting Guide",
+    "shortTitle": "eSports",
+    "category": "sports",
+    "description": "Learn how to read eSports markets and evaluate event formats, maps, series rules and settlement conditions.",
+    "intro": "eSports titles and tournament formats change frequently; verify the exact competition and market definitions.",
+    "sections": [
+      {
+        "heading": "Confirm event structure",
+        "body": "Check whether the market covers a map, a series, kills, objectives or the match winner, and confirm best-of format, substitutions, postponements and official-result rules."
+      },
+      {
+        "heading": "Consider data quality",
+        "body": "Roster changes, patches, map pools, tournament format and limited historical samples can make older statistics less useful."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/casino/slots/",
+    "title": "Online Slots and RTP Explained",
+    "shortTitle": "Slots and RTP",
+    "category": "casino",
+    "description": "Learn what slot volatility and return-to-player (RTP) mean, and why neither predicts the result of a short session.",
+    "intro": "Slot outcomes are uncertain, and theoretical statistics do not predict individual results.",
+    "sections": [
+      {
+        "heading": "What RTP means",
+        "body": "RTP is a theoretical long-run return percentage under specified conditions. It is not a promise that a player will receive that percentage back, and short sessions can differ substantially."
+      },
+      {
+        "heading": "Volatility and strategy claims",
+        "body": "Volatility describes how wins may be distributed over time. Claims that a strategy can guarantee wins or reliably beat a random game should be treated sceptically."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/casino/live-casino/",
+    "title": "Live Casino Games Explained",
+    "shortTitle": "Live Casino",
+    "category": "casino",
+    "description": "An overview of live casino formats and the rules, limits and risks to check before playing.",
+    "intro": "Live presentation does not remove the financial risk or house advantage associated with casino games.",
+    "sections": [
+      {
+        "heading": "Check game and table rules",
+        "body": "Review minimum and maximum stakes, game rules, payout conditions, provider information and any time or account restrictions. Rules may differ by table or operator."
+      },
+      {
+        "heading": "Keep control",
+        "body": "Set limits in advance and do not chase losses. If gambling is no longer recreational, stop and consider support or self-exclusion options."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/about/",
+    "title": "About Betting Guide SA",
+    "shortTitle": "About",
+    "category": "about",
+    "description": "Read the editorial approach, review criteria, verification policy and commercial disclosure for Betting Guide SA.",
+    "intro": "This site is an informational publishing project. It is not a bookmaker and does not guarantee outcomes.",
+    "sections": [
+      {
+        "heading": "Editorial standards",
+        "body": "Pages should separate explanatory content from operator-specific claims. Current promotions, licensing, payment methods, game counts, ratings and performance claims require dated evidence from a reliable source before publication as verified."
+      },
+      {
+        "heading": "Affiliate disclosure",
+        "body": "Some outbound commercial links may generate a commission. Commercial relationships must be disclosed clearly near relevant links and must not be represented as independent evidence of quality."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/legal/privacy/",
+    "title": "Privacy Policy",
+    "shortTitle": "Privacy Policy",
+    "category": "legal",
+    "description": "Privacy information for visitors to Betting Guide SA, including the data-handling topics that must be documented before launch.",
+    "intro": "This page is a policy framework and must be reviewed against the actual hosting, analytics, advertising, forms and data-processing setup before publication as a legal policy.",
+    "sections": [
+      {
+        "heading": "Data collection and use",
+        "body": "The final policy must accurately describe the personal information collected, purposes, lawful basis where applicable, retention periods, recipients, security practices, user rights and contact route. Do not publish statements about tools or practices that are not actually implemented."
+      },
+      {
+        "heading": "Cookies and analytics",
+        "body": "Document each cookie, local-storage item, analytics tool and advertising integration, including purpose and retention. Consent controls must reflect the actual technologies and must not imply category-level consent if no such controls exist."
+      }
+    ],
+    "status": "legal-review-required",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/legal/terms/",
+    "title": "Terms of Use",
+    "shortTitle": "Terms of Use",
+    "category": "legal",
+    "description": "Terms-of-use framework for an informational betting guide; legal review is required before production publication.",
+    "intro": "This framework is not legal advice and should not be treated as a complete set of legally reviewed terms.",
+    "sections": [
+      {
+        "heading": "Editorial information",
+        "body": "Content is for general information and should not be represented as financial advice or a guarantee of outcomes. Operator terms, applicable law and market rules may change."
+      },
+      {
+        "heading": "Review before launch",
+        "body": "A qualified reviewer should adapt the terms to the site owner, jurisdiction, contact details, intellectual-property position, affiliate arrangements, liability approach and actual site functionality."
+      }
+    ],
+    "status": "legal-review-required",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/bookmakers/betway/",
+    "title": "Betway Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Betway Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Betway: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Betway. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/hollywoodbets/",
+    "title": "Hollywoodbets Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Hollywoodbets Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Hollywoodbets: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Hollywoodbets. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/easybet/",
+    "title": "Easybet Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Easybet Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Easybet: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Easybet. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/lulabet/",
+    "title": "Lulabet Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Lulabet Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Lulabet: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Lulabet. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/jackpot-city/",
+    "title": "Jackpot City Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Jackpot City Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Jackpot City: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Jackpot City. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "casino"
+  },
+  {
+    "slug": "/bookmakers/supabets/",
+    "title": "Supabets Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Supabets Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Supabets: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Supabets. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/betfred/",
+    "title": "Betfred Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Betfred Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Betfred: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Betfred. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/sunbet/",
+    "title": "Sunbet Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Sunbet Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Sunbet: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Sunbet. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/10bet/",
+    "title": "10bet Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "10bet Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for 10bet: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for 10bet. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/gbets/",
+    "title": "Gbets Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Gbets Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Gbets: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Gbets. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/lucky-fish/",
+    "title": "Lucky Fish Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Lucky Fish Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Lucky Fish: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Lucky Fish. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "online betting and casino"
+  },
+  {
+    "slug": "/bookmakers/betshezi/",
+    "title": "Betshezi Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "Betshezi Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for Betshezi: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for Betshezi. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/world-sports-betting/",
+    "title": "World Sports Betting Review: Terms, Payments and Verification Checklist",
+    "shortTitle": "World Sports Betting Review",
+    "category": "bookmaker",
+    "description": "Editorial review framework for World Sports Betting: check legal entity and licensing, current terms, deposits and withdrawals, product coverage, support and player-protection tools.",
+    "intro": "This page is a structured review record for World Sports Betting. Operator-specific details are not labelled verified until evidence has been reviewed and dated.",
+    "sections": [
+      {
+        "heading": "What to verify",
+        "body": "Confirm the operator’s legal entity and applicable licence with the relevant regulator. Read the current terms, payment rules, account restrictions, identity-verification requirements, complaint route and responsible-gambling tools."
+      },
+      {
+        "heading": "Promotions and product details",
+        "body": "No current bonus amount, game count, payout speed, rating or payment-method claim is certified on this page. Add a claim only with a dated official source and a record of what was checked."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/promotions/welcome-offers/",
+    "title": "Welcome Offers: How to Compare Terms",
+    "shortTitle": "Welcome Offers",
+    "category": "promotions",
+    "description": "A checklist for comparing welcome offers using eligibility, wagering, expiry, qualifying markets and withdrawal rules.",
+    "intro": "This page explains how to assess offers; it does not certify any live promotion.",
+    "sections": [
+      {
+        "heading": "Compare the conditions, not just the headline",
+        "body": "Read the official promotion terms and record eligibility, opt-in steps, minimum deposit, qualifying odds, eligible markets, turnover requirements, expiry, excluded payment methods and maximum withdrawal or conversion limits."
+      },
+      {
+        "heading": "Evidence needed for a live offer",
+        "body": "A live offer record must contain the official terms URL, date and time checked, offer end date if stated, eligibility notes and reviewer. If terms cannot be verified, show the offer as unverified or omit it."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  },
+  {
+    "slug": "/promotions/terms-checklist/",
+    "title": "Promotion Terms Checklist",
+    "shortTitle": "Terms Checklist",
+    "category": "promotions",
+    "description": "A practical checklist for reviewing wagering, eligibility, expiry, qualifying odds and withdrawal conditions.",
+    "intro": "Use this checklist before opting into a betting or casino promotion.",
+    "sections": [
+      {
+        "heading": "Terms checklist",
+        "body": "Eligibility and age; territory; opt-in requirements; minimum deposit; qualifying markets and odds; wagering or turnover rules; expiry; excluded payment methods; maximum conversion; withdrawal restrictions; and account closure or bonus forfeiture rules."
+      },
+      {
+        "heading": "Keep an evidence record",
+        "body": "Save the official terms or a dated capture and record the URL, verification date, reviewer and any unresolved ambiguity."
+      }
+    ],
+    "status": "editorial-review",
+    "lastVerified": null,
+    "sources": []
+  }
+]

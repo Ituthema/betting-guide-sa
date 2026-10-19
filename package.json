@@ -1,0 +1,11 @@
+{
+  "name": "betting-guide-sa-static",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Crawlable static multi-page architecture for Betting Guide SA",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "validate": "python3 scripts/validate.py",
+    "check": "python3 scripts/build.py && python3 scripts/validate.py"
+  }
+}
