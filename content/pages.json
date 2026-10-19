@@ -798,5 +798,194 @@
     "status": "editorial-review",
     "lastVerified": null,
     "sources": []
+  },
+  {
+    "slug": "/bookmakers/sportingbet/",
+    "title": "Sportingbet South Africa Review: Verification Checklist",
+    "shortTitle": "Sportingbet Review",
+    "category": "bookmaker",
+    "description": "A South Africa-focused review framework for checking Sportingbet's legal entity, applicable licence, sportsbook products, payment rules and current promotion terms.",
+    "intro": "Use this page as a checklist before relying on any Sportingbet product or promotion information. Operator-specific details remain unverified until they are checked against current official terms and the relevant regulator.",
+    "sections": [
+      {
+        "heading": "What to check before registering",
+        "body": "Confirm the exact legal entity serving South African customers and verify its authorisation with the relevant provincial regulator. Check age and identity requirements, account restrictions, complaint channels and responsible-gambling tools."
+      },
+      {
+        "heading": "Sportsbook and promotion terms",
+        "body": "Review available markets, qualifying odds, exclusions, minimum deposits, wagering rules, offer expiry and withdrawal restrictions directly in the current official terms. No bonus amount, payout speed, rating or product claim is certified on this page."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This review is pending independent verification. Do not treat this page as confirmation of current availability, licensing, an active promotion or an affiliate partnership."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/yesplay/",
+    "title": "YesPlay South Africa Review: Terms and Safety Checklist",
+    "shortTitle": "YesPlay Review",
+    "category": "bookmaker",
+    "description": "A verification-first guide to assessing YesPlay's operator identity, South African authorisation, product terms, payments and player-protection features.",
+    "intro": "This page sets out the checks readers should complete before using YesPlay. It does not assert that the operator or any offer has been independently verified.",
+    "sections": [
+      {
+        "heading": "Verify the operator",
+        "body": "Identify the legal entity, the jurisdiction and the regulator responsible for the service offered to South African customers. Do not infer licensing from a logo, advertisement or third-party review."
+      },
+      {
+        "heading": "Read the current terms",
+        "body": "Check account eligibility, verification steps, deposit and withdrawal conditions, market or game exclusions, complaints handling and responsible-gambling controls on the operator's own current pages."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "The operator-specific details on this page still require independent source checks. No current bonus, payment method, rating or affiliate relationship is being claimed."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/bet-co-za/",
+    "title": "BET.co.za Review: South African Operator Checks",
+    "shortTitle": "BET.co.za Review",
+    "category": "bookmaker",
+    "description": "A neutral review checklist for BET.co.za covering operator identity, relevant South African licensing, product availability, payment terms and promotions.",
+    "intro": "This page is a structured starting point for reviewing BET.co.za. Confirm all operator-specific details from current official sources before relying on them.",
+    "sections": [
+      {
+        "heading": "Legal entity and jurisdiction",
+        "body": "Find the full legal entity and confirm the relevant licence directly with the regulator responsible for the applicable province. A website name or marketing claim alone is not proof of authorisation."
+      },
+      {
+        "heading": "Products, payments and account rules",
+        "body": "Check which products are available in your jurisdiction, the current payment and withdrawal rules, identity-verification requirements, restrictions and dispute-resolution process."
+      },
+      {
+        "heading": "Promotion verification",
+        "body": "Before describing an offer as current, capture its official terms, eligibility, expiry date, wagering requirements and exclusions. This page does not certify any active promotion or payment claim."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/playabets/",
+    "title": "Playabets Review: Products, Terms and Verification",
+    "shortTitle": "Playabets Review",
+    "category": "bookmaker",
+    "description": "A checklist for evaluating Playabets through official operator terms and regulator records, without assuming current products, promotions or licensing status.",
+    "intro": "Use the checks on this page to evaluate Playabets before registering or using an offer. All operator-specific information remains unverified pending dated evidence.",
+    "sections": [
+      {
+        "heading": "Check authorisation first",
+        "body": "Confirm the legal entity and the licence that applies to the service offered in your province. If official regulator information cannot be located, record the uncertainty rather than describing the operator as licensed."
+      },
+      {
+        "heading": "Compare the terms, not only the headline",
+        "body": "Review account eligibility, deposits, withdrawals, market or game rules, bonus exclusions, complaints processes and available safer-gambling controls using current official documentation."
+      },
+      {
+        "heading": "Evidence and update policy",
+        "body": "Record the source URL, date checked and exact claim verified before adding a current product or promotion claim. This page does not confirm any live offer."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/interbet/",
+    "title": "Interbet Review: Licensing and Product Checklist",
+    "shortTitle": "Interbet Review",
+    "category": "bookmaker",
+    "description": "A verification-first Interbet review framework for legal entity checks, regulator confirmation, product terms, payments and responsible-gambling features.",
+    "intro": "This page explains how to assess Interbet using evidence rather than unverified marketing claims. Current operator details have not yet been independently confirmed here.",
+    "sections": [
+      {
+        "heading": "Confirm who operates the service",
+        "body": "Identify the exact company providing the service and check its authorisation directly against the relevant official regulator records for the province and product involved."
+      },
+      {
+        "heading": "Assess user terms",
+        "body": "Read current eligibility, account verification, deposit, withdrawal, bonus, cancellation and complaint conditions. Treat payment speed, market coverage and promotion details as unverified unless supported by current official evidence."
+      },
+      {
+        "heading": "Editorial status",
+        "body": "This is a review framework awaiting source verification. It is not a statement that Interbet is currently available, licensed or offering a specific promotion in South Africa."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/bookmakers/fafabet/",
+    "title": "Fafabet Review: South African Verification Checklist",
+    "shortTitle": "Fafabet Review",
+    "category": "bookmaker",
+    "description": "A cautious Fafabet review checklist covering legal entity, jurisdiction, licensing evidence, current terms, payment rules and player-protection information.",
+    "intro": "Before relying on Fafabet information, establish whether the exact service is available and authorised for the intended jurisdiction. This page makes no claim that it is.",
+    "sections": [
+      {
+        "heading": "Jurisdiction and authorisation",
+        "body": "Confirm the legal entity and intended customer territory. Check official regulator records and do not infer South African authorisation from availability in another country."
+      },
+      {
+        "heading": "Terms and customer protections",
+        "body": "If an applicable official service is confirmed, review account eligibility, identity checks, payment and withdrawal conditions, complaints routes and responsible-gambling tools before describing its products."
+      },
+      {
+        "heading": "Promotions and editorial status",
+        "body": "No bonus, payment, rating or licensing claim is verified here. Add such information only after saving a dated official source and recording the reviewer and jurisdiction."
+      }
+    ],
+    "status": "needs-verification",
+    "lastVerified": null,
+    "sources": [],
+    "operatorType": "sportsbook"
+  },
+  {
+    "slug": "/affiliate-disclosure/",
+    "title": "Affiliate Disclosure and Editorial Independence",
+    "shortTitle": "Affiliate Disclosure",
+    "category": "legal",
+    "description": "How Betting Guide SA handles potential affiliate relationships, commercial links, editorial independence and verification of bookmaker claims.",
+    "intro": "Transparency matters when a website discusses betting operators. This disclosure explains how commercial relationships should be identified and how readers can evaluate our editorial claims.",
+    "sections": [
+      {
+        "heading": "How affiliate links may work",
+        "body": "If a page contains an affiliate link, Betting Guide SA may receive a commission when a reader clicks through, registers or completes another qualifying action. The availability and terms of any commercial relationship must be confirmed before a link is published. A commission should not increase the reader's price."
+      },
+      {
+        "heading": "Editorial independence",
+        "body": "Commercial relationships must be disclosed and must not be presented as proof that an operator is safe, suitable, licensed or the best choice. Reviews should explain their criteria, distinguish verified facts from editorial commentary, and show when information has not yet been checked."
+      },
+      {
+        "heading": "Offers and operator claims",
+        "body": "Promotions, payment methods, licence status and product availability can change. Check the operator's current official terms and the relevant regulator records before acting. A headline offer is not a guarantee of eligibility, value or winnings."
+      },
+      {
+        "heading": "Responsible gambling and age",
+        "body": "This website is intended for adults aged 18 and over. Betting involves financial risk and is not a way to earn guaranteed income. Do not gamble with money needed for essential expenses, and seek support if gambling is causing harm."
+      },
+      {
+        "heading": "Status of this disclosure",
+        "body": "This is an informational disclosure framework and has not been reviewed as legal advice. Before launch, confirm it against the actual affiliate agreements, link labels, analytics, cookies and applicable South African advertising and privacy requirements."
+      }
+    ],
+    "status": "legal-review-required",
+    "lastVerified": null,
+    "sources": []
   }
 ]
