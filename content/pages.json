@@ -14,6 +14,18 @@
       {
         "heading": "Browse by topic",
         "body": "Use the categories below to explore bookmaker reviews, promotion explainers, sports-specific guides and casino content. Pages distinguish editorial guidance from details that must be confirmed with an operator or regulator."
+      },
+      {
+        "heading": "Read the full offer terms, not just the headline",
+        "body": "Before opting in, record the qualifying deposit, minimum odds, eligible markets, expiry, turnover or wagering requirement, maximum conversion, excluded payment methods and withdrawal restrictions. Check whether winnings or the original stake are treated differently. If a key term is missing or unclear, do not describe the offer as free money or guaranteed value."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “South African Betting Guides and Bookmaker Reviews”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -35,6 +47,18 @@
       {
         "heading": "How this directory is maintained",
         "body": "Each operator record includes source fields and a verification state. A page must not be described as independently verified until a reviewer records the evidence, source URL and review date."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Bookmaker Reviews, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "editorial-review",
@@ -56,6 +80,18 @@
       {
         "heading": "Editorial policy for offer listings",
         "body": "This release intentionally does not publish unverified bonus amounts as live offers. A promotion record needs an official source URL, a captured terms reference, a verification date and a named reviewer before it can be labelled verified."
+      },
+      {
+        "heading": "A step-by-step offer audit",
+        "body": "Save the official offer page and full terms, then record the date checked, eligibility rules, qualifying deposit, minimum odds, eligible markets, expiry, opt-in steps, wagering or turnover requirements, maximum conversion and excluded payment methods. Note whether the offer is restricted to new customers or selected accounts. Recheck before publishing because a cached banner or third-party page may remain visible after an offer changes."
+      },
+      {
+        "heading": "How to present an offer responsibly",
+        "body": "Show material conditions beside the headline rather than hiding them in fine print. Distinguish an operator's stated offer from an editorial assessment, avoid calling a bonus guaranteed or risk-free, and do not estimate a reader's chance of qualifying without evidence. If the official terms cannot be accessed, mark the offer unavailable for verification instead of guessing."
+      },
+      {
+        "heading": "Editorial evidence standard",
+        "body": "A publishable offer needs a direct official source, a date checked, the exact jurisdiction, an expiry or recheck date, and a reviewer record. Affiliate compensation must be disclosed and must not determine whether a claim is described as verified. This page contains no promise that an offer is active or suitable for any reader."
       }
     ],
     "status": "editorial-review",
@@ -77,6 +113,18 @@
       {
         "heading": "Use statistics carefully",
         "body": "Historical results do not guarantee future outcomes. Sample size, opponent strength, injuries, line-ups, weather and competition context can change how relevant a statistic is."
+      },
+      {
+        "heading": "A repeatable pre-match information checklist",
+        "body": "Start with the competition and match format, then check the event time, venue, official team news, injuries or suspensions and any rule changes relevant to the market. Use reputable sources and note when information was published. Late line-up changes and small samples can make an earlier statistical summary outdated; do not treat a trend as a forecast."
+      },
+      {
+        "heading": "Market definitions and settlement",
+        "body": "Before comparing prices, confirm the exact selection, period covered, whether extra time counts, and how postponements, abandonments, ties or shortened events are settled. Two markets with similar names may not be equivalent. The operator's current rules take precedence over a generic explanation on this website."
+      },
+      {
+        "heading": "Use statistics with limits",
+        "body": "Separate descriptive statistics from probability estimates. Check sample size, opponent strength, venue, competition level and data completeness, and avoid drawing conclusions from a few recent results. Historical performance cannot guarantee a future result; this guide is intended to explain the market, not to provide picks or encourage chasing losses."
       }
     ],
     "status": "editorial-review",
@@ -98,6 +146,18 @@
       {
         "heading": "Before playing",
         "body": "Confirm the operator’s legal status, game rules, payment terms, age requirements and available player-protection tools. Never treat a game as a source of income or chase losses."
+      },
+      {
+        "heading": "Check legality and the game information",
+        "body": "Do not assume every product advertised online is lawful in South Africa. Confirm the operator's applicable authorisation and the exact product permitted by that licence. Read the game rules, paytable, provider information, stake limits and any restrictions before engaging; a familiar brand or polished interface is not proof of legality."
+      },
+      {
+        "heading": "Understand randomness and published statistics",
+        "body": "Published RTP and volatility figures describe theoretical game characteristics and do not predict a particular session. Random results can differ substantially from long-run averages, and no betting system can guarantee a return. Avoid claims about “due” wins, patterns that supposedly beat randomness or guaranteed strategies."
+      },
+      {
+        "heading": "Set boundaries and get support",
+        "body": "Keep gambling separate from essential household money, set limits in advance and stop when they are reached. Do not play to recover losses or borrow to continue. If gambling becomes hard to control, use available time-out or self-exclusion tools and seek confidential support."
       }
     ],
     "status": "editorial-review",
@@ -119,6 +179,18 @@
       {
         "heading": "Set limits in advance",
         "body": "Only consider money you can afford to lose, set time and spending limits before starting, and do not borrow or chase losses. Taking a break or not betting is always a valid choice."
+      },
+      {
+        "heading": "A calculation is not a prediction",
+        "body": "For decimal odds, a simple implied-probability calculation is 1 divided by the odds. At 2.50, that equals 40% before accounting for bookmaker margin and uncertainty. The calculation translates a price into a percentage; it does not establish the true probability of an event. Different outcomes' implied probabilities may add to more than 100% because of margin."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Beginner’s Guide to Sports Betting”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -140,6 +212,18 @@
       {
         "heading": "Compare like with like",
         "body": "Check that markets use the same settlement rules and timing before comparing prices. Differences in market definitions can make apparent price comparisons misleading."
+      },
+      {
+        "heading": "A calculation is not a prediction",
+        "body": "For decimal odds, a simple implied-probability calculation is 1 divided by the odds. At 2.50, that equals 40% before accounting for bookmaker margin and uncertainty. The calculation translates a price into a percentage; it does not establish the true probability of an event. Different outcomes' implied probabilities may add to more than 100% because of margin."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Understanding Betting Odds”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -161,6 +245,18 @@
       {
         "heading": "Recognise warning signs",
         "body": "Chasing losses, hiding activity, borrowing to gamble or feeling unable to stop are reasons to pause and seek support. Self-exclusion and blocking tools may be available through operators and support organisations."
+      },
+      {
+        "heading": "Build a boundary that protects essential spending",
+        "body": "Decide on a maximum amount and time limit before any gambling activity, and keep rent, food, transport, debt repayments, school costs and savings outside that budget. Track deposits and withdrawals rather than counting only wins or losses. If a limit is reached, stop; do not borrow or raise the limit to recover money."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Bankroll and Risk Management”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -182,11 +278,29 @@
       {
         "heading": "Getting help",
         "body": "Before publishing local helplines or service details, verify the number, service name, availability and geographic coverage against the provider’s official source. This starter release does not certify any helpline listing."
+      },
+      {
+        "heading": "Build a boundary that protects essential spending",
+        "body": "Decide on a maximum amount and time limit before any gambling activity, and keep rent, food, transport, debt repayments, school costs and savings outside that budget. Track deposits and withdrawals rather than counting only wins or losses. If a limit is reached, stop; do not borrow or raise the limit to recover money."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Responsible Gambling and Support”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
     "lastVerified": null,
-    "sources": []
+    "sources": [
+      {
+        "label": "South African National Gambling Board — Frequently Asked Questions",
+        "url": "https://www.ngb.org.za/faqs/",
+        "checkedAt": "2026-10-19"
+      }
+    ]
   },
   {
     "slug": "/sports/soccer/",
@@ -203,6 +317,18 @@
       {
         "heading": "Use match data responsibly",
         "body": "Recent results alone are not enough to assess a fixture. Opponent strength, home and away performance, goal rates, injuries, suspensions and confirmed line-ups may matter, and data quality varies across competitions."
+      },
+      {
+        "heading": "A repeatable pre-match information checklist",
+        "body": "Start with the competition and match format, then check the event time, venue, official team news, injuries or suspensions and any rule changes relevant to the market. Use reputable sources and note when information was published. Late line-up changes and small samples can make an earlier statistical summary outdated; do not treat a trend as a forecast."
+      },
+      {
+        "heading": "Market definitions and settlement",
+        "body": "Before comparing prices, confirm the exact selection, period covered, whether extra time counts, and how postponements, abandonments, ties or shortened events are settled. Two markets with similar names may not be equivalent. The operator's current rules take precedence over a generic explanation on this website."
+      },
+      {
+        "heading": "Use statistics with limits",
+        "body": "Separate descriptive statistics from probability estimates. Check sample size, opponent strength, venue, competition level and data completeness, and avoid drawing conclusions from a few recent results. Historical performance cannot guarantee a future result; this guide is intended to explain the market, not to provide picks or encourage chasing losses."
       }
     ],
     "status": "editorial-review",
@@ -224,6 +350,18 @@
       {
         "heading": "Context matters",
         "body": "Team selection, injuries, weather, venue and competition format can influence performance. Statistical trends are descriptive, not guarantees."
+      },
+      {
+        "heading": "A repeatable pre-match information checklist",
+        "body": "Start with the competition and match format, then check the event time, venue, official team news, injuries or suspensions and any rule changes relevant to the market. Use reputable sources and note when information was published. Late line-up changes and small samples can make an earlier statistical summary outdated; do not treat a trend as a forecast."
+      },
+      {
+        "heading": "Market definitions and settlement",
+        "body": "Before comparing prices, confirm the exact selection, period covered, whether extra time counts, and how postponements, abandonments, ties or shortened events are settled. Two markets with similar names may not be equivalent. The operator's current rules take precedence over a generic explanation on this website."
+      },
+      {
+        "heading": "Use statistics with limits",
+        "body": "Separate descriptive statistics from probability estimates. Check sample size, opponent strength, venue, competition level and data completeness, and avoid drawing conclusions from a few recent results. Historical performance cannot guarantee a future result; this guide is intended to explain the market, not to provide picks or encourage chasing losses."
       }
     ],
     "status": "editorial-review",
@@ -245,6 +383,18 @@
       {
         "heading": "Interpret performance data",
         "body": "Pitch, weather, toss, team selection, player availability and format-specific statistics can materially affect interpretation. Small samples can produce misleading conclusions."
+      },
+      {
+        "heading": "A repeatable pre-match information checklist",
+        "body": "Start with the competition and match format, then check the event time, venue, official team news, injuries or suspensions and any rule changes relevant to the market. Use reputable sources and note when information was published. Late line-up changes and small samples can make an earlier statistical summary outdated; do not treat a trend as a forecast."
+      },
+      {
+        "heading": "Market definitions and settlement",
+        "body": "Before comparing prices, confirm the exact selection, period covered, whether extra time counts, and how postponements, abandonments, ties or shortened events are settled. Two markets with similar names may not be equivalent. The operator's current rules take precedence over a generic explanation on this website."
+      },
+      {
+        "heading": "Use statistics with limits",
+        "body": "Separate descriptive statistics from probability estimates. Check sample size, opponent strength, venue, competition level and data completeness, and avoid drawing conclusions from a few recent results. Historical performance cannot guarantee a future result; this guide is intended to explain the market, not to provide picks or encourage chasing losses."
       }
     ],
     "status": "editorial-review",
@@ -266,6 +416,18 @@
       {
         "heading": "Avoid over-reading head-to-head data",
         "body": "Surface, recent workload, injury status, opponent quality and sample size affect how historical results should be interpreted."
+      },
+      {
+        "heading": "A repeatable pre-match information checklist",
+        "body": "Start with the competition and match format, then check the event time, venue, official team news, injuries or suspensions and any rule changes relevant to the market. Use reputable sources and note when information was published. Late line-up changes and small samples can make an earlier statistical summary outdated; do not treat a trend as a forecast."
+      },
+      {
+        "heading": "Market definitions and settlement",
+        "body": "Before comparing prices, confirm the exact selection, period covered, whether extra time counts, and how postponements, abandonments, ties or shortened events are settled. Two markets with similar names may not be equivalent. The operator's current rules take precedence over a generic explanation on this website."
+      },
+      {
+        "heading": "Use statistics with limits",
+        "body": "Separate descriptive statistics from probability estimates. Check sample size, opponent strength, venue, competition level and data completeness, and avoid drawing conclusions from a few recent results. Historical performance cannot guarantee a future result; this guide is intended to explain the market, not to provide picks or encourage chasing losses."
       }
     ],
     "status": "editorial-review",
@@ -287,6 +449,18 @@
       {
         "heading": "Use current race information",
         "body": "Declarations, withdrawals, track conditions, distance and race-class changes may affect interpretation. Past performance cannot guarantee a future result."
+      },
+      {
+        "heading": "A repeatable pre-match information checklist",
+        "body": "Start with the competition and match format, then check the event time, venue, official team news, injuries or suspensions and any rule changes relevant to the market. Use reputable sources and note when information was published. Late line-up changes and small samples can make an earlier statistical summary outdated; do not treat a trend as a forecast."
+      },
+      {
+        "heading": "Market definitions and settlement",
+        "body": "Before comparing prices, confirm the exact selection, period covered, whether extra time counts, and how postponements, abandonments, ties or shortened events are settled. Two markets with similar names may not be equivalent. The operator's current rules take precedence over a generic explanation on this website."
+      },
+      {
+        "heading": "Use statistics with limits",
+        "body": "Separate descriptive statistics from probability estimates. Check sample size, opponent strength, venue, competition level and data completeness, and avoid drawing conclusions from a few recent results. Historical performance cannot guarantee a future result; this guide is intended to explain the market, not to provide picks or encourage chasing losses."
       }
     ],
     "status": "editorial-review",
@@ -308,6 +482,18 @@
       {
         "heading": "Consider data quality",
         "body": "Roster changes, patches, map pools, tournament format and limited historical samples can make older statistics less useful."
+      },
+      {
+        "heading": "A repeatable pre-match information checklist",
+        "body": "Start with the competition and match format, then check the event time, venue, official team news, injuries or suspensions and any rule changes relevant to the market. Use reputable sources and note when information was published. Late line-up changes and small samples can make an earlier statistical summary outdated; do not treat a trend as a forecast."
+      },
+      {
+        "heading": "Market definitions and settlement",
+        "body": "Before comparing prices, confirm the exact selection, period covered, whether extra time counts, and how postponements, abandonments, ties or shortened events are settled. Two markets with similar names may not be equivalent. The operator's current rules take precedence over a generic explanation on this website."
+      },
+      {
+        "heading": "Use statistics with limits",
+        "body": "Separate descriptive statistics from probability estimates. Check sample size, opponent strength, venue, competition level and data completeness, and avoid drawing conclusions from a few recent results. Historical performance cannot guarantee a future result; this guide is intended to explain the market, not to provide picks or encourage chasing losses."
       }
     ],
     "status": "editorial-review",
@@ -329,6 +515,18 @@
       {
         "heading": "Volatility and strategy claims",
         "body": "Volatility describes how wins may be distributed over time. Claims that a strategy can guarantee wins or reliably beat a random game should be treated sceptically."
+      },
+      {
+        "heading": "Check legality and the game information",
+        "body": "Do not assume every product advertised online is lawful in South Africa. Confirm the operator's applicable authorisation and the exact product permitted by that licence. Read the game rules, paytable, provider information, stake limits and any restrictions before engaging; a familiar brand or polished interface is not proof of legality."
+      },
+      {
+        "heading": "Understand randomness and published statistics",
+        "body": "Published RTP and volatility figures describe theoretical game characteristics and do not predict a particular session. Random results can differ substantially from long-run averages, and no betting system can guarantee a return. Avoid claims about “due” wins, patterns that supposedly beat randomness or guaranteed strategies."
+      },
+      {
+        "heading": "Set boundaries and get support",
+        "body": "Keep gambling separate from essential household money, set limits in advance and stop when they are reached. Do not play to recover losses or borrow to continue. If gambling becomes hard to control, use available time-out or self-exclusion tools and seek confidential support."
       }
     ],
     "status": "editorial-review",
@@ -350,6 +548,18 @@
       {
         "heading": "Keep control",
         "body": "Set limits in advance and do not chase losses. If gambling is no longer recreational, stop and consider support or self-exclusion options."
+      },
+      {
+        "heading": "Check legality and the game information",
+        "body": "Do not assume every product advertised online is lawful in South Africa. Confirm the operator's applicable authorisation and the exact product permitted by that licence. Read the game rules, paytable, provider information, stake limits and any restrictions before engaging; a familiar brand or polished interface is not proof of legality."
+      },
+      {
+        "heading": "Understand randomness and published statistics",
+        "body": "Published RTP and volatility figures describe theoretical game characteristics and do not predict a particular session. Random results can differ substantially from long-run averages, and no betting system can guarantee a return. Avoid claims about “due” wins, patterns that supposedly beat randomness or guaranteed strategies."
+      },
+      {
+        "heading": "Set boundaries and get support",
+        "body": "Keep gambling separate from essential household money, set limits in advance and stop when they are reached. Do not play to recover losses or borrow to continue. If gambling becomes hard to control, use available time-out or self-exclusion tools and seek confidential support."
       }
     ],
     "status": "editorial-review",
@@ -371,6 +581,18 @@
       {
         "heading": "Affiliate disclosure",
         "body": "Some outbound commercial links may generate a commission. Commercial relationships must be disclosed clearly near relevant links and must not be represented as independent evidence of quality."
+      },
+      {
+        "heading": "Scope and implementation checks",
+        "body": "This page is a working information framework and should not be interpreted as legal advice. Before launch, compare every statement with the actual website, business identity, hosting provider, analytics, cookies, forms, affiliate tracking and third-party services. Remove claims that do not match the live implementation."
+      },
+      {
+        "heading": "Corrections, contact and review",
+        "body": "Provide a working way for readers to report inaccurate information and explain how corrections are assessed. Assign a reviewer, record the date and source of material changes, and recheck pages when operator terms, regulations or data practices change. Do not publish a contact address or service commitment until it is configured and monitored."
+      },
+      {
+        "heading": "Commercial relationships and user protection",
+        "body": "Clearly identify commercial links and any commission relationship. A commercial relationship must not be presented as an endorsement or proof of an operator's licence, safety or suitability. Gambling content should be age-gated for adults, avoid promises of income and provide clear responsible-gambling information."
       }
     ],
     "status": "editorial-review",
@@ -392,6 +614,18 @@
       {
         "heading": "Cookies and analytics",
         "body": "Document each cookie, local-storage item, analytics tool and advertising integration, including purpose and retention. Consent controls must reflect the actual technologies and must not imply category-level consent if no such controls exist."
+      },
+      {
+        "heading": "Scope and implementation checks",
+        "body": "This page is a working information framework and should not be interpreted as legal advice. Before launch, compare every statement with the actual website, business identity, hosting provider, analytics, cookies, forms, affiliate tracking and third-party services. Remove claims that do not match the live implementation."
+      },
+      {
+        "heading": "Corrections, contact and review",
+        "body": "Provide a working way for readers to report inaccurate information and explain how corrections are assessed. Assign a reviewer, record the date and source of material changes, and recheck pages when operator terms, regulations or data practices change. Do not publish a contact address or service commitment until it is configured and monitored."
+      },
+      {
+        "heading": "Commercial relationships and user protection",
+        "body": "Clearly identify commercial links and any commission relationship. A commercial relationship must not be presented as an endorsement or proof of an operator's licence, safety or suitability. Gambling content should be age-gated for adults, avoid promises of income and provide clear responsible-gambling information."
       }
     ],
     "status": "legal-review-required",
@@ -413,6 +647,18 @@
       {
         "heading": "Review before launch",
         "body": "A qualified reviewer should adapt the terms to the site owner, jurisdiction, contact details, intellectual-property position, affiliate arrangements, liability approach and actual site functionality."
+      },
+      {
+        "heading": "Scope and implementation checks",
+        "body": "This page is a working information framework and should not be interpreted as legal advice. Before launch, compare every statement with the actual website, business identity, hosting provider, analytics, cookies, forms, affiliate tracking and third-party services. Remove claims that do not match the live implementation."
+      },
+      {
+        "heading": "Corrections, contact and review",
+        "body": "Provide a working way for readers to report inaccurate information and explain how corrections are assessed. Assign a reviewer, record the date and source of material changes, and recheck pages when operator terms, regulations or data practices change. Do not publish a contact address or service commitment until it is configured and monitored."
+      },
+      {
+        "heading": "Commercial relationships and user protection",
+        "body": "Clearly identify commercial links and any commission relationship. A commercial relationship must not be presented as an endorsement or proof of an operator's licence, safety or suitability. Gambling content should be age-gated for adults, avoid promises of income and provide clear responsible-gambling information."
       }
     ],
     "status": "legal-review-required",
@@ -438,6 +684,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Betway Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -464,6 +722,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Hollywoodbets Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -490,6 +760,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Easybet Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -516,6 +798,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Lulabet Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -542,6 +836,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Jackpot City Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -568,6 +874,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Supabets Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -594,6 +912,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Betfred Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -620,6 +950,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Sunbet Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -646,6 +988,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of 10bet Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -672,6 +1026,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Gbets Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -698,6 +1064,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Lucky Fish Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -724,6 +1102,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Betshezi Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -750,6 +1140,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review template populated from the previous site’s bookmaker directory. It is pending independent verification and must not be presented as a completed operator assessment."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of World Sports Betting Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -772,6 +1174,18 @@
       {
         "heading": "Evidence needed for a live offer",
         "body": "A live offer record must contain the official terms URL, date and time checked, offer end date if stated, eligibility notes and reviewer. If terms cannot be verified, show the offer as unverified or omit it."
+      },
+      {
+        "heading": "A step-by-step offer audit",
+        "body": "Save the official offer page and full terms, then record the date checked, eligibility rules, qualifying deposit, minimum odds, eligible markets, expiry, opt-in steps, wagering or turnover requirements, maximum conversion and excluded payment methods. Note whether the offer is restricted to new customers or selected accounts. Recheck before publishing because a cached banner or third-party page may remain visible after an offer changes."
+      },
+      {
+        "heading": "How to present an offer responsibly",
+        "body": "Show material conditions beside the headline rather than hiding them in fine print. Distinguish an operator's stated offer from an editorial assessment, avoid calling a bonus guaranteed or risk-free, and do not estimate a reader's chance of qualifying without evidence. If the official terms cannot be accessed, mark the offer unavailable for verification instead of guessing."
+      },
+      {
+        "heading": "Editorial evidence standard",
+        "body": "A publishable offer needs a direct official source, a date checked, the exact jurisdiction, an expiry or recheck date, and a reviewer record. Affiliate compensation must be disclosed and must not determine whether a claim is described as verified. This page contains no promise that an offer is active or suitable for any reader."
       }
     ],
     "status": "editorial-review",
@@ -793,6 +1207,18 @@
       {
         "heading": "Keep an evidence record",
         "body": "Save the official terms or a dated capture and record the URL, verification date, reviewer and any unresolved ambiguity."
+      },
+      {
+        "heading": "A step-by-step offer audit",
+        "body": "Save the official offer page and full terms, then record the date checked, eligibility rules, qualifying deposit, minimum odds, eligible markets, expiry, opt-in steps, wagering or turnover requirements, maximum conversion and excluded payment methods. Note whether the offer is restricted to new customers or selected accounts. Recheck before publishing because a cached banner or third-party page may remain visible after an offer changes."
+      },
+      {
+        "heading": "How to present an offer responsibly",
+        "body": "Show material conditions beside the headline rather than hiding them in fine print. Distinguish an operator's stated offer from an editorial assessment, avoid calling a bonus guaranteed or risk-free, and do not estimate a reader's chance of qualifying without evidence. If the official terms cannot be accessed, mark the offer unavailable for verification instead of guessing."
+      },
+      {
+        "heading": "Editorial evidence standard",
+        "body": "A publishable offer needs a direct official source, a date checked, the exact jurisdiction, an expiry or recheck date, and a reviewer record. Affiliate compensation must be disclosed and must not determine whether a claim is described as verified. This page contains no promise that an offer is active or suitable for any reader."
       }
     ],
     "status": "editorial-review",
@@ -818,6 +1244,18 @@
       {
         "heading": "Editorial status",
         "body": "This review is pending independent verification. Do not treat this page as confirmation of current availability, licensing, an active promotion or an affiliate partnership."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Sportingbet Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -844,6 +1282,18 @@
       {
         "heading": "Editorial status",
         "body": "The operator-specific details on this page still require independent source checks. No current bonus, payment method, rating or affiliate relationship is being claimed."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of YesPlay Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -870,6 +1320,18 @@
       {
         "heading": "Promotion verification",
         "body": "Before describing an offer as current, capture its official terms, eligibility, expiry date, wagering requirements and exclusions. This page does not certify any active promotion or payment claim."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of BET.co.za Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -896,6 +1358,18 @@
       {
         "heading": "Evidence and update policy",
         "body": "Record the source URL, date checked and exact claim verified before adding a current product or promotion claim. This page does not confirm any live offer."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Playabets Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -922,6 +1396,18 @@
       {
         "heading": "Editorial status",
         "body": "This is a review framework awaiting source verification. It is not a statement that Interbet is currently available, licensed or offering a specific promotion in South Africa."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Interbet Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -948,6 +1434,18 @@
       {
         "heading": "Promotions and editorial status",
         "body": "No bonus, payment, rating or licensing claim is verified here. Add such information only after saving a dated official source and recording the reviewer and jurisdiction."
+      },
+      {
+        "heading": "What this review does—and does not—confirm",
+        "body": "This page is a structured due-diligence review of Fafabet Review, not a certification of its current legal status, products or promotions. Before using a service, identify the legal entity named in its terms and match that entity to the relevant South African provincial regulator's records. If the evidence cannot be found or does not match, the correct editorial result is “not verified”, not an assumption based on brand recognition."
+      },
+      {
+        "heading": "Compare account, payment and complaint conditions",
+        "body": "Read the current account eligibility and identity-verification requirements, deposit and withdrawal conditions, market settlement rules, bonus exclusions, account restrictions and complaint process. Note the date and URL of each official source, and recheck volatile claims before publication. We do not publish an invented rating, payout-speed claim, current bonus amount or affiliate link where the supporting evidence has not been confirmed."
+      },
+      {
+        "heading": "Player-protection checks",
+        "body": "Look for clear deposit and time limits, time-out and self-exclusion options, account closure procedures and access to support. Confirm the minimum age and the service's applicable jurisdiction. If a term is unclear, ask the operator through its official channel and preserve the response; do not deposit money just to test whether an account or promotion works."
       }
     ],
     "status": "needs-verification",
@@ -982,6 +1480,18 @@
       {
         "heading": "Status of this disclosure",
         "body": "This is an informational disclosure framework and has not been reviewed as legal advice. Before launch, confirm it against the actual affiliate agreements, link labels, analytics, cookies and applicable South African advertising and privacy requirements."
+      },
+      {
+        "heading": "Scope and implementation checks",
+        "body": "This page is a working information framework and should not be interpreted as legal advice. Before launch, compare every statement with the actual website, business identity, hosting provider, analytics, cookies, forms, affiliate tracking and third-party services. Remove claims that do not match the live implementation."
+      },
+      {
+        "heading": "Corrections, contact and review",
+        "body": "Provide a working way for readers to report inaccurate information and explain how corrections are assessed. Assign a reviewer, record the date and source of material changes, and recheck pages when operator terms, regulations or data practices change. Do not publish a contact address or service commitment until it is configured and monitored."
+      },
+      {
+        "heading": "Commercial relationships and user protection",
+        "body": "Clearly identify commercial links and any commission relationship. A commercial relationship must not be presented as an endorsement or proof of an operator's licence, safety or suitability. Gambling content should be age-gated for adults, avoid promises of income and provide clear responsible-gambling information."
       }
     ],
     "status": "legal-review-required",
@@ -1003,6 +1513,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Readers should compare the exact market wording and match duration; a 1X2 selection is not a prediction guarantee."
+      },
+      {
+        "heading": "Worked example: reading the market label",
+        "body": "In a standard 1X2 market, 1 means the home team wins, X means the match is drawn and 2 means the away team wins. The selection is settled against the result for the period specified in the market rules. A strong team name or short price does not remove uncertainty; the result can still be a draw or an away win."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Understanding the 1X2 Soccer Betting Market”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1024,6 +1546,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Check whether extra time, abandoned matches or special competition rules change settlement."
+      },
+      {
+        "heading": "Reading 1X, X2 and 12 correctly",
+        "body": "1X covers a home win or draw; X2 covers an away win or draw; 12 covers either team winning and excludes a draw. Covering two result outcomes usually changes the price compared with selecting one outcome, but it does not make the selection risk-free. Confirm the market applies to the same match period you intend to compare."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Double Chance in Soccer: Meaning and Settlement”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1045,6 +1579,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Read the exact line and match-period label; full-match and first-half totals are different markets."
+      },
+      {
+        "heading": "Check the line and settlement period",
+        "body": "A total market is defined by a number, such as 2.5 goals. Over 2.5 requires at least three goals; under 2.5 requires two or fewer. A whole-number line may have a push or refund outcome depending on the rules, while a half-number line cannot land exactly on the line. First-half totals and full-match totals are separate markets."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Over/Under Goals Markets Explained”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1066,6 +1612,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "A match can have many goals while this market still loses if only one side scores; verify own-goals and abandoned-match rules."
+      },
+      {
+        "heading": "What the market does not measure",
+        "body": "Both-teams-to-score normally asks whether each team scores at least once during the defined period. It does not measure the total number of goals: a 1–1 and a 4–3 result both meet the Yes condition, while a 2–0 result does not. Confirm how own goals, abandoned matches and shortened periods are treated."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Both Teams to Score: Yes/No Market Guide”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1087,6 +1645,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Confirm whether the market refers to regulation time and how extra time is handled."
+      },
+      {
+        "heading": "Separate the time period from the final result",
+        "body": "Period-specific markets are settled only against the stated period. Half-time/full-time combines two conditions: the result at the interval and the result at the end of the defined match period. Added time, abandoned matches and extra-time treatment should be checked in the operator's rules rather than assumed."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Half-Time/Full-Time Markets Explained”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1108,6 +1678,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Check added-time and abandoned-match settlement language; do not assume full-time rules apply unchanged."
+      },
+      {
+        "heading": "Separate the time period from the final result",
+        "body": "Period-specific markets are settled only against the stated period. Half-time/full-time combines two conditions: the result at the interval and the result at the end of the defined match period. Added time, abandoned matches and extra-time treatment should be checked in the operator's rules rather than assumed."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “First-Half Soccer Markets: A Rules Guide”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1129,6 +1711,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Read the handicap number, settlement period and whether the market uses whole or split lines."
+      },
+      {
+        "heading": "Understand the handicap before comparing prices",
+        "body": "A handicap adjusts the starting score or outcome condition for settlement. The exact line determines what must happen for a selection to win, lose, push or be partially settled. Asian handicap markets can include quarter-goal lines and split stakes; do not compare two handicap prices unless their lines and settlement rules match."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Soccer Handicap Markets: A Beginner's Explanation”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1150,6 +1744,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Corner awards, retakes and abandoned matches may be defined differently by provider rules; verify the rulebook."
+      },
+      {
+        "heading": "Check the statistic and qualifying period",
+        "body": "Specialist markets depend on an exact statistical definition: the provider may specify official match statistics, whether extra time counts, and how substitutions or abandoned events are handled. Read the settlement rules and data source. A player or team trend from a small sample may not transfer to a different opponent or competition."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Soccer Corners Markets and Settlement Rules”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1171,6 +1777,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Confirm which competitions and card types are included and whether staff or bench cards count."
+      },
+      {
+        "heading": "Check the statistic and qualifying period",
+        "body": "Specialist markets depend on an exact statistical definition: the provider may specify official match statistics, whether extra time counts, and how substitutions or abandoned events are handled. Read the settlement rules and data source. A player or team trend from a small sample may not transfer to a different opponent or competition."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Yellow and Red Card Markets Explained”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1192,6 +1810,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Outrights can remain open for long periods and may have special rules for postponed or abandoned competitions."
+      },
+      {
+        "heading": "A practical checklist for readers",
+        "body": "Use “Outright Soccer Markets: League and Tournament Winners” as a starting point for understanding the topic, then confirm any time-sensitive detail against a current primary source. Identify the exact terms being discussed, look for exclusions and exceptions, and note the date checked. Where the subject involves an operator, match the legal entity and product to the applicable jurisdiction rather than relying on advertising or a third-party summary."
+      },
+      {
+        "heading": "Common mistakes to avoid",
+        "body": "Do not treat a headline, isolated statistic, testimonial or historical result as proof of a future outcome. Be cautious with claims of guaranteed wins, risk-free offers or easy income. If information is missing, conflicting or outdated, state that limitation rather than filling the gap with a guess."
+      },
+      {
+        "heading": "Responsible use and next steps",
+        "body": "This is educational information, not a promise of results or a recommendation to gamble. Compare rules carefully, protect personal and payment information, and keep any gambling separate from essential household spending. Set boundaries in advance and seek support if gambling begins to cause stress, debt or conflict."
       }
     ],
     "status": "editorial-review",
@@ -1213,6 +1843,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Fixture schedules can change; verify the official league or club announcement rather than relying on an old listing."
+      },
+      {
+        "heading": "A practical checklist for readers",
+        "body": "Use “South African Premiership Fixtures: How to Read Match Listings” as a starting point for understanding the topic, then confirm any time-sensitive detail against a current primary source. Identify the exact terms being discussed, look for exclusions and exceptions, and note the date checked. Where the subject involves an operator, match the legal entity and product to the applicable jurisdiction rather than relying on advertising or a third-party summary."
+      },
+      {
+        "heading": "Common mistakes to avoid",
+        "body": "Do not treat a headline, isolated statistic, testimonial or historical result as proof of a future outcome. Be cautious with claims of guaranteed wins, risk-free offers or easy income. If information is missing, conflicting or outdated, state that limitation rather than filling the gap with a guess."
+      },
+      {
+        "heading": "Responsible use and next steps",
+        "body": "This is educational information, not a promise of results or a recommendation to gamble. Compare rules carefully, protect personal and payment information, and keep any gambling separate from essential household spending. Set boundaries in advance and seek support if gambling begins to cause stress, debt or conflict."
       }
     ],
     "status": "editorial-review",
@@ -1234,6 +1876,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Market availability and names vary by operator; this page does not provide current odds or predictions."
+      },
+      {
+        "heading": "A practical checklist for readers",
+        "body": "Use “English Premier League Markets: A Rules Overview” as a starting point for understanding the topic, then confirm any time-sensitive detail against a current primary source. Identify the exact terms being discussed, look for exclusions and exceptions, and note the date checked. Where the subject involves an operator, match the legal entity and product to the applicable jurisdiction rather than relying on advertising or a third-party summary."
+      },
+      {
+        "heading": "Common mistakes to avoid",
+        "body": "Do not treat a headline, isolated statistic, testimonial or historical result as proof of a future outcome. Be cautious with claims of guaranteed wins, risk-free offers or easy income. If information is missing, conflicting or outdated, state that limitation rather than filling the gap with a guess."
+      },
+      {
+        "heading": "Responsible use and next steps",
+        "body": "This is educational information, not a promise of results or a recommendation to gamble. Compare rules carefully, protect personal and payment information, and keep any gambling separate from essential household spending. Set boundaries in advance and seek support if gambling begins to cause stress, debt or conflict."
       }
     ],
     "status": "editorial-review",
@@ -1255,6 +1909,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Check whether a market is for regulation time, qualification to advance or the eventual tournament winner."
+      },
+      {
+        "heading": "Read the full offer terms, not just the headline",
+        "body": "Before opting in, record the qualifying deposit, minimum odds, eligible markets, expiry, turnover or wagering requirement, maximum conversion, excluded payment methods and withdrawal restrictions. Check whether winnings or the original stake are treated differently. If a key term is missing or unclear, do not describe the offer as free money or guaranteed value."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “AFCON Betting Market Terms: A Tournament Guide”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1276,6 +1942,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Bookmaker margin and uncertainty mean implied probabilities should not be treated as certainty or advice."
+      },
+      {
+        "heading": "A calculation is not a prediction",
+        "body": "For decimal odds, a simple implied-probability calculation is 1 divided by the odds. At 2.50, that equals 40% before accounting for bookmaker margin and uncertainty. The calculation translates a price into a percentage; it does not establish the true probability of an event. Different outcomes' implied probabilities may add to more than 100% because of margin."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Decimal Odds and Implied Probability in Soccer”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1297,6 +1975,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Adding selections can increase uncertainty; avoid claims that an accumulator is a reliable way to profit."
+      },
+      {
+        "heading": "Understand how combined selections affect risk",
+        "body": "An accumulator combines multiple selections into one bet. All required legs generally need to succeed for a standard accumulator to win, so adding legs increases the number of ways the overall bet can lose. The combined price is not evidence that the outcome is likely, and each leg should be evaluated separately."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Accumulator Bets: Combined Outcomes and Risk”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1318,6 +2008,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Read the operator's terms for suspension, partial cash-out, cancellation and final settlement."
+      },
+      {
+        "heading": "Read the cash-out conditions",
+        "body": "Cash-out availability and quoted amounts can change or disappear, and the operator may apply specific eligibility or suspension rules. A cash-out quote is not necessarily equal to the stake or the potential full return. Check the terms and do not assume that a cash-out option will remain available during every event."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Cash-Out Features: What to Check Before Using Them”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1339,6 +2041,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Never transfer money to a personal account or a destination that cannot be confirmed through the operator's official site."
+      },
+      {
+        "heading": "Payment safety checklist",
+        "body": "Read the operator's current cashier rules before transferring money: eligible methods, minimums, fees, processing stages, account-name matching and document requirements can vary. Keep transaction references and use official support channels. Never disclose passwords, PINs or one-time authentication codes, and avoid repeating a transaction while a previous payment is unresolved."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Bank Transfer Deposits: Verification Checklist”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1360,6 +2074,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Do not assume every bank is supported or that a displayed deposit time guarantees withdrawal speed."
+      },
+      {
+        "heading": "Payment safety checklist",
+        "body": "Read the operator's current cashier rules before transferring money: eligible methods, minimums, fees, processing stages, account-name matching and document requirements can vary. Keep transaction references and use official support channels. Never disclose passwords, PINs or one-time authentication codes, and avoid repeating a transaction while a previous payment is unresolved."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Instant EFT Payments: How to Evaluate the Terms”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1381,6 +2107,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Do not share card details outside the operator's secure payment flow; check the current payment terms."
+      },
+      {
+        "heading": "Payment safety checklist",
+        "body": "Read the operator's current cashier rules before transferring money: eligible methods, minimums, fees, processing stages, account-name matching and document requirements can vary. Keep transaction references and use official support channels. Never disclose passwords, PINs or one-time authentication codes, and avoid repeating a transaction while a previous payment is unresolved."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Bank Card Deposits and Withdrawals: Key Questions”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1402,6 +2140,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Provider availability can change and some wallets may not support gambling-related transactions; confirm both sets of terms."
+      },
+      {
+        "heading": "Build a boundary that protects essential spending",
+        "body": "Decide on a maximum amount and time limit before any gambling activity, and keep rent, food, transport, debt repayments, school costs and savings outside that budget. Track deposits and withdrawals rather than counting only wins or losses. If a limit is reached, stop; do not borrow or raise the limit to recover money."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “E-Wallet Payments: Fees, Limits and Verification”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1423,6 +2173,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Avoid treating advertised estimates as guarantees; record the date and exact wording of any timing claim."
+      },
+      {
+        "heading": "Payment safety checklist",
+        "body": "Read the operator's current cashier rules before transferring money: eligible methods, minimums, fees, processing stages, account-name matching and document requirements can vary. Keep transaction references and use official support channels. Never disclose passwords, PINs or one-time authentication codes, and avoid repeating a transaction while a previous payment is unresolved."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Betting Withdrawal Times: What Affects Processing”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1444,6 +2206,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Use only official secure upload channels and read the privacy notice before submitting sensitive documents."
+      },
+      {
+        "heading": "Payment safety checklist",
+        "body": "Read the operator's current cashier rules before transferring money: eligible methods, minimums, fees, processing stages, account-name matching and document requirements can vary. Keep transaction references and use official support channels. Never disclose passwords, PINs or one-time authentication codes, and avoid repeating a transaction while a previous payment is unresolved."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Account Verification: Identity Documents and Safety”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1465,6 +2239,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Avoid repeated deposits while a transaction is unresolved; never provide passwords or one-time codes to support agents."
+      },
+      {
+        "heading": "Payment safety checklist",
+        "body": "Read the operator's current cashier rules before transferring money: eligible methods, minimums, fees, processing stages, account-name matching and document requirements can vary. Keep transaction references and use official support channels. Never disclose passwords, PINs or one-time authentication codes, and avoid repeating a transaction while a previous payment is unresolved."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “What to Do When a Deposit Does Not Appear”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1486,6 +2272,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Do not assume that a withdrawal can be cancelled or that every payment method is available for payout."
+      },
+      {
+        "heading": "Build a boundary that protects essential spending",
+        "body": "Decide on a maximum amount and time limit before any gambling activity, and keep rent, food, transport, debt repayments, school costs and savings outside that budget. Track deposits and withdrawals rather than counting only wins or losses. If a limit is reached, stop; do not borrow or raise the limit to recover money."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Withdrawal Checklist: Limits, Documents and Status”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1507,6 +2305,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Do not rank an operator as best without dated evidence and disclosed criteria; commercial relationships must be visible."
+      },
+      {
+        "heading": "Read the full offer terms, not just the headline",
+        "body": "Before opting in, record the qualifying deposit, minimum odds, eligible markets, expiry, turnover or wagering requirement, maximum conversion, excluded payment methods and withdrawal restrictions. Check whether winnings or the original stake are treated differently. If a key term is missing or unclear, do not describe the offer as free money or guaranteed value."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “How to Compare South African Bookmakers Fairly”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1528,11 +2338,34 @@
       {
         "heading": "What to verify before relying on information",
         "body": "A licence in one jurisdiction does not automatically prove authorisation in another; record source and check date."
+      },
+      {
+        "heading": "Verify the exact company and product",
+        "body": "For South Africa, check the exact legal entity and whether the relevant provincial licensing authority authorises the specific betting service. A brand name, app-store listing, advertisement or licence from another country is not enough. The National Gambling Board explains that legal online betting must be through a bookmaker licensed in South Africa and that licence details should be displayed on the operator's digital platform."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “How to Check a Betting Operator's South African Licence”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
     "lastVerified": null,
-    "sources": []
+    "sources": [
+      {
+        "label": "South African National Gambling Board — Frequently Asked Questions",
+        "url": "https://www.ngb.org.za/faqs/",
+        "checkedAt": "2026-10-19"
+      },
+      {
+        "label": "National Gambling Board — Enforcement and legal gambling guidance",
+        "url": "https://www.ngb.org.za/industry-regulation/enforcement/",
+        "checkedAt": "2026-10-19"
+      }
+    ]
   },
   {
     "slug": "/bookmakers/mobile-apps/",
@@ -1549,6 +2382,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Avoid installing APKs from unofficial links or granting unnecessary permissions; availability can vary by device and region."
+      },
+      {
+        "heading": "Check app authenticity and account security",
+        "body": "Use the operator's verified website or official app-store publisher to locate an app. Review permissions, updates, account recovery and two-factor security options, and avoid APK files shared through unsolicited messages. A mobile website can be a safer alternative to an unofficial download; never let convenience replace checking legal status and terms."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Betting Apps: Permissions, Security and Accessibility”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1570,6 +2415,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "A fast chat reply is not proof that a complaint is resolved; keep records and avoid sharing credentials."
+      },
+      {
+        "heading": "Keep a clear record if something goes wrong",
+        "body": "Use the official support channel listed by the operator, keep dates and case numbers, and describe the issue with transaction references rather than passwords or full payment credentials. If the issue concerns legality or a formal complaint, check the regulator identified on the operator's licence and follow its published complaint route."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Bookmaker Customer Support: Questions to Test”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1591,6 +2448,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Never describe a bonus as free money or guaranteed value; only publish current claims with dated official terms."
+      },
+      {
+        "heading": "A calculation is not a prediction",
+        "body": "For decimal odds, a simple implied-probability calculation is 1 divided by the odds. At 2.50, that equals 40% before accounting for bookmaker margin and uncertainty. The calculation translates a price into a percentage; it does not establish the true probability of an event. Different outcomes' implied probabilities may add to more than 100% because of margin."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “How to Compare Betting Bonus Terms”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1612,6 +2481,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Limits can vary by product, event, account and jurisdiction; quote the exact term and source when comparing operators."
+      },
+      {
+        "heading": "Build a boundary that protects essential spending",
+        "body": "Decide on a maximum amount and time limit before any gambling activity, and keep rent, food, transport, debt repayments, school costs and savings outside that budget. Track deposits and withdrawals rather than counting only wins or losses. If a limit is reached, stop; do not borrow or raise the limit to recover money."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Payout Limits and Maximum-Win Rules Explained”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1633,6 +2514,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Estimates depend on assumptions and uncertain probabilities; this is educational mathematics, not a recommendation to gamble."
+      },
+      {
+        "heading": "A calculation is not a prediction",
+        "body": "For decimal odds, a simple implied-probability calculation is 1 divided by the odds. At 2.50, that equals 40% before accounting for bookmaker margin and uncertainty. The calculation translates a price into a percentage; it does not establish the true probability of an event. Different outcomes' implied probabilities may add to more than 100% because of margin."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Expected Value: A Plain-Language Probability Guide”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1654,6 +2547,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Tracking does not remove gambling risk. Stop if activity affects essential spending, relationships or wellbeing."
+      },
+      {
+        "heading": "Build a boundary that protects essential spending",
+        "body": "Decide on a maximum amount and time limit before any gambling activity, and keep rent, food, transport, debt repayments, school costs and savings outside that budget. Track deposits and withdrawals rather than counting only wins or losses. If a limit is reached, stop; do not borrow or raise the limit to recover money."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Keeping Betting Records: A Budget and Risk Tool”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1675,6 +2580,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Controls differ by service and may have change or cooling-off rules; read the operator's responsible-gambling policy."
+      },
+      {
+        "heading": "Build a boundary that protects essential spending",
+        "body": "Decide on a maximum amount and time limit before any gambling activity, and keep rent, food, transport, debt repayments, school costs and savings outside that budget. Track deposits and withdrawals rather than counting only wins or losses. If a limit is reached, stop; do not borrow or raise the limit to recover money."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Deposit, Time and Loss Limits: What to Know”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1696,6 +2613,18 @@
       {
         "heading": "What to verify before relying on information",
         "body": "Do not treat a new bet as a way to recover money. Seek trusted support if gambling is becoming difficult to control."
+      },
+      {
+        "heading": "Warning signs and practical next steps",
+        "body": "Warning signs can include chasing losses, borrowing, hiding activity, repeatedly breaking limits, or allowing gambling to affect bills, relationships, work or sleep. A practical first step is to stop deposits and betting, tell a trusted person, and use blocking, time-out or self-exclusion tools where available. Support is appropriate before a crisis develops."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Chasing Losses: Warning Signs and Safer Next Steps”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
@@ -1717,10 +2646,28 @@
       {
         "heading": "What to verify before relying on information",
         "body": "A single operator's exclusion may not cover every gambling service; confirm local support options and official processes."
+      },
+      {
+        "heading": "Warning signs and practical next steps",
+        "body": "Warning signs can include chasing losses, borrowing, hiding activity, repeatedly breaking limits, or allowing gambling to affect bills, relationships, work or sleep. A practical first step is to stop deposits and betting, tell a trusted person, and use blocking, time-out or self-exclusion tools where available. Support is appropriate before a crisis develops."
+      },
+      {
+        "heading": "Questions to check before using this information",
+        "body": "Read the exact wording and current rules relevant to “Self-Exclusion and Time-Out Tools: A Guide”. Check the market or product scope, the period covered, any exclusions, and how unusual cases are settled. If comparing operators, use the same definition on each side and record the official source and date. Where terms are ambiguous, do not fill the gap with assumptions or rely on an outdated screenshot."
+      },
+      {
+        "heading": "Limits of this guide",
+        "body": "This article explains concepts and practical checks; it is not a prediction, a recommendation to gamble or a guarantee of a particular outcome. Prices, product availability, account terms and operator rules can change. Keep essential expenses separate from gambling, never borrow to participate, and stop if activity affects your finances or wellbeing."
       }
     ],
     "status": "editorial-review",
     "lastVerified": null,
-    "sources": []
+    "sources": [
+      {
+        "label": "South African National Gambling Board — Frequently Asked Questions",
+        "url": "https://www.ngb.org.za/faqs/",
+        "checkedAt": "2026-10-19"
+      }
+    ]
   }
 ]
