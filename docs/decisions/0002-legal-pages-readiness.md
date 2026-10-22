@@ -14,7 +14,23 @@ Keep the existing `legal-review-required` statuses unchanged. This task adds a d
 
 TASK-11's content-scope controls are a separate workstream. This task can proceed now: inventory real data practices, verify the site, prepare accurate page drafts and implement visible disclosures. It does not authorise any casino promotion or affiliate link that remains unverified. A paid legal consultation is not a blanket prerequisite for this work, but unresolved legal questions must be documented and the affected high-risk activity must not be launched merely because a draft or checklist exists.
 
-## 2. Existing pages and observed gaps
+## 2. Preliminary repository-only implementation findings
+
+Checked against `main` source files on 2026-10-22. These are code-inspection findings only; they are not a deployed-browser test, hosting-provider audit, or proof that a service is absent from the production environment.
+
+| Area | Finding in inspected source | Privacy/compliance follow-up |
+|---|---|---|
+| Site architecture | `scripts/build.py` generates static HTML from `content/pages.json`; the workflow runs a Python build and publishes the `dist/` output to GitHub Pages. | Confirm the actual production domain and review the hosting provider's applicable logging, retention and data-processing information. |
+| Third-party requests | The shared page template loads Google Fonts CSS and preconnects to `fonts.googleapis.com` and `fonts.gstatic.com`. | Record this as a third-party request; decide whether to keep it, self-host fonts, or describe it accurately in the privacy notice based on the actual deployment and applicable rules. |
+| Search | The generated page includes a site-search form that submits a query to the local `/search/` route; `assets/search.js` filters the pre-rendered list in the browser and reads the `q` URL parameter. No external search API is visible in the inspected code. | Test the deployed behaviour and remember that search terms may appear in the URL/browser history and potentially in hosting logs. |
+| Browser storage and cookies | `assets/site.js` hides the 18+ reminder when clicked and toggles a sticky header on scroll. `assets/search.js` filters local page cards. The inspected versions do not call `localStorage`, set cookies, or implement a consent banner. | Verify the complete deployed site and hosting/platform behaviour before stating that no cookies or other storage are used. Do not claim a consent mechanism exists unless one is implemented and tested. |
+| Analytics / advertising pixels | No analytics SDK, advertising pixel or consent-management integration was found in the inspected `scripts/build.py`, `assets/site.js` and `assets/search.js` files. | Treat as “not found in inspected files”, not “confirmed absent from production”; inspect all assets, hosting integrations and network requests before finalising the inventory. |
+| Forms and backend | The inspected page shell contains a GET search form. The README says no fake-success contact form is included and that a contact backend has not yet been chosen. | Confirm this against the full generated site and deployment. Do not publish a contact/privacy-request process until a working, monitored channel exists. |
+| Commercial links | The current source snapshot has no source entries on the content records observed in the prior audit, and the legal pages do not evidence active affiliate agreements. | Confirm whether any affiliate programme or external commercial URL is actually configured before describing current commissions or partners. |
+
+**Evidence limits:** this table does not inspect the GitHub Pages production runtime, DNS/CDN configuration, server logs, account settings, browser extensions, or third-party account dashboards. The owner must still test the deployed site in a clean browser session and update each inventory item to present/absent/unknown with evidence.
+
+## 3. Existing pages and observed gaps
 
 The following is based on the current `content/pages.json` entries, not on a live-site crawl or a runtime inspection.
 
@@ -27,7 +43,7 @@ The following is based on the current `content/pages.json` entries, not on a liv
 
 Common issue: the three legal pages currently repeat generic “scope and implementation checks”, “corrections, contact and review”, and “commercial relationships and user protection” sections. These should eventually be replaced with page-specific, fact-checked wording rather than copied boilerplate.
 
-## 3. Fact-finding record — answer before counsel review
+## 4. Fact-finding record — owner confirmation required
 
 Do not guess these values. Record the owner's confirmed answer and evidence in a restricted project record; only non-confidential conclusions should be committed to this public repository. This fact-finding and technical work can be completed without paying for a legal opinion. Where a question is about legal interpretation rather than an observable site fact, record it separately and do not invent an answer.
 
@@ -78,7 +94,7 @@ Do not say the site “may earn commission” as though that is a current fact i
 
 These are required topics, not ready-to-publish legal copy.
 
-### 4. Low-cost implementation workflow
+### 5. Low-cost implementation workflow
 
 Complete these steps in order. They are practical evidence controls, not a promise or certification of legal compliance.
 
@@ -100,7 +116,7 @@ Complete these steps in order. They are practical evidence controls, not a promi
 
 Do not use a completed checklist to label a policy legally approved or the site fully compliant. Keep confidential contracts, credentials, personal information and privileged advice out of the public repository.
 
-## 4.1 Privacy Policy — `/legal/privacy/`
+## 5.1 Privacy Policy — `/legal/privacy/`
 
 Prepare a plain-language notice based on the completed inventory above. Ask counsel to determine the required notices and wording under POPIA and any other applicable law. At minimum, review:
 
@@ -119,7 +135,7 @@ Prepare a plain-language notice based on the completed inventory above. Ask coun
 
 **Implementation check:** test the deployed site in a clean browser session, inspect network requests and storage, and compare findings against the written inventory. A policy must not claim a consent banner or opt-out mechanism exists unless it works.
 
-### 4.2 Terms of Use — `/legal/terms/`
+### 5.2 Terms of Use — `/legal/terms/`
 
 Counsel and the owner should decide whether separate terms are appropriate for this informational affiliate site and confirm:
 
@@ -136,7 +152,7 @@ Counsel and the owner should decide whether separate terms are appropriate for t
 
 Do not add an overbroad waiver, claim that visitors surrender statutory rights, or imply that external operators are endorsed or legally authorised merely because they are mentioned.
 
-### 4.3 Affiliate Disclosure — `/affiliate-disclosure/`
+### 5.3 Affiliate Disclosure — `/affiliate-disclosure/`
 
 The final disclosure should match actual commercial arrangements and be consistent across the site. Ask counsel to review:
 
@@ -155,7 +171,7 @@ The final disclosure should match actual commercial arrangements and be consiste
 
 Use this only if it truthfully describes the actual arrangement. Counsel should approve the wording and required placement before launch. If the link is paid/sponsored but not affiliate-tracked, label it accurately rather than using this template.
 
-## 5. Publication and UI checklist
+## 6. Publication and UI checklist
 
 - [ ] Privacy, Terms and Affiliate Disclosure pages are linked in a persistent footer or other readily discoverable site navigation.
 - [ ] A short affiliate disclosure appears near relevant commercial links, not only on a separate policy page.
@@ -169,7 +185,7 @@ Use this only if it truthfully describes the actual arrangement. Counsel should 
 - [ ] Build output and rendered pages are checked, not just the JSON source.
 - [ ] TASK-11 checks have been completed for each commercial item being considered; any unresolved high-risk item remains unpublished. Paid counsel is not a prerequisite for the privacy-page implementation work.
 
-## 6. Suggested evidence record
+## 7. Suggested evidence record
 
 For each decision, maintain a record with these fields:
 
@@ -187,7 +203,7 @@ For each decision, maintain a record with these fields:
 
 Do not commit confidential contracts, personal data, credentials, or privileged legal advice to this repository. Record only a non-confidential summary and a secure reference to restricted evidence.
 
-## 7. External legal and regulatory references for review
+## 8. External legal and regulatory references for review
 
 These sources are starting points, not a substitute for counsel's current-law check:
 
@@ -198,7 +214,7 @@ These sources are starting points, not a substitute for counsel's current-law ch
 
 Check current legislation, regulations, regulator guidance and the ARB code/appendices at the time of each relevant release. This document does not determine which provisions apply to a specific processing activity or advertising arrangement. If a material legal interpretation cannot be resolved from authoritative public sources, record the narrow question and hold the affected feature or claim while continuing unrelated work.
 
-## 8. Exit criteria — TASK-12 remains open until met
+## 9. Exit criteria — TASK-12 remains open until met
 
 - [ ] Owner has confirmed the legal publisher identity and working contact route.
 - [ ] Actual production deployment/domain and data-processing inventory are evidenced.
