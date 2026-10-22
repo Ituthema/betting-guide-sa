@@ -1,6 +1,6 @@
 # TASK-12 — Privacy, Terms and Affiliate Disclosure Readiness
 
-**Status:** DRAFT FOR FACT-CHECKING AND QUALIFIED SOUTH AFRICAN LEGAL REVIEW  
+**Status:** DRAFT FOR OWNER FACT-CHECKING, IMPLEMENTATION TESTS AND EVIDENCE-BASED REVISION  
 **Prepared:** 2026-10-22  
 **Repository:** `Ituthema/betting-guide-sa`  
 **Scope:** Readiness review for `/legal/privacy/`, `/legal/terms/`, and `/affiliate-disclosure/`  
@@ -12,7 +12,7 @@ Do not mark any of the three legal pages `verified` or represent them as final. 
 
 Keep the existing `legal-review-required` statuses unchanged. This task adds a documented checklist and a fact-gathering record; it does not assert that the site is compliant or that a specific cookie, analytics tool, form, tracking pixel, or affiliate programme is in use.
 
-TASK-11's interim content-scope hold is a separate dependency. The privacy/terms/disclosure work must not be read as permission to publish casino promotion or affiliate links. The TASK-11 decision remains pending qualified South African gambling/advertising counsel.
+TASK-11's content-scope controls are a separate workstream. This task can proceed now: inventory real data practices, verify the site, prepare accurate page drafts and implement visible disclosures. It does not authorise any casino promotion or affiliate link that remains unverified. A paid legal consultation is not a blanket prerequisite for this work, but unresolved legal questions must be documented and the affected high-risk activity must not be launched merely because a draft or checklist exists.
 
 ## 2. Existing pages and observed gaps
 
@@ -29,7 +29,7 @@ Common issue: the three legal pages currently repeat generic “scope and implem
 
 ## 3. Fact-finding record — answer before counsel review
 
-Do not guess these values. Record the owner's confirmed answer and evidence in a restricted project record; only non-confidential conclusions should be committed to this public repository.
+Do not guess these values. Record the owner's confirmed answer and evidence in a restricted project record; only non-confidential conclusions should be committed to this public repository. This fact-finding and technical work can be completed without paying for a legal opinion. Where a question is about legal interpretation rather than an observable site fact, record it separately and do not invent an answer.
 
 ### A. Publisher identity and contact
 
@@ -78,7 +78,29 @@ Do not say the site “may earn commission” as though that is a current fact i
 
 These are required topics, not ready-to-publish legal copy.
 
-### 4.1 Privacy Policy — `/legal/privacy/`
+### 4. Low-cost implementation workflow
+
+Complete these steps in order. They are practical evidence controls, not a promise or certification of legal compliance.
+
+1. **Inventory before drafting.** Confirm the publisher identity and contact route; inspect repository code, hosting configuration and the deployed site; list logs, storage, cookies, forms, analytics, ads, affiliate tracking, embeds and third-party requests as present, absent or unknown.
+2. **Test what visitors actually experience.** Use a clean browser session and mobile layout; inspect requests and browser storage where possible; test every form, privacy contact route, cookie/consent control and external/commercial link. Record date, evidence and limitations.
+3. **Use official guidance.** Read current POPIA and PAIA materials from the Information Regulator and relevant government sources. For advertising and gambling-related content, use the current National Gambling Board guidance, applicable legislation/regulations and the current ARB Code/Appendix. Record the URL and date checked.
+4. **Draft from confirmed facts.** Write the privacy notice to match actual processing; write terms to match the site's real functions and publisher decisions; write the affiliate disclosure to match actual commercial relationships. Do not invent an entity, contact address, partner, cookie, consent banner, retention period or security control.
+5. **Implement visible disclosures and contact handling.** Make policies easy to find, put short disclosures close to relevant commercial links, ensure mobile readability, and provide a monitored contact path before inviting privacy requests.
+6. **Keep unresolved questions narrow.** If official guidance does not settle a material interpretation, log the exact issue, affected page/feature, source already checked and interim control. Keep the specific high-risk feature or claim unpublished; continue unrelated development. Regulator clarification or qualified advice may be pursued when available and proportionate, but do not present it as a prerequisite for ordinary engineering or factual verification.
+7. **Review and recheck.** Have a human reviewer compare the draft against observed behaviour and evidence. Record reviewer/date, change triggers and the next recheck. Revisit when vendors, data uses, partners, domains, functionality or relevant rules change.
+
+### Suggested task statuses
+
+- **Ready for implementation:** the required fact is known and a technical or editorial action can proceed.
+- **Needs owner confirmation:** an operational fact, identity, contact route or commercial relationship is unknown.
+- **Needs verification:** the source or live behaviour has not been checked.
+- **Hold this feature/claim:** a specific material risk cannot yet be resolved; do not treat this as a block on unrelated site work.
+- **Draft only:** wording exists but does not yet match verified implementation facts.
+
+Do not use a completed checklist to label a policy legally approved or the site fully compliant. Keep confidential contracts, credentials, personal information and privileged advice out of the public repository.
+
+## 4.1 Privacy Policy — `/legal/privacy/`
 
 Prepare a plain-language notice based on the completed inventory above. Ask counsel to determine the required notices and wording under POPIA and any other applicable law. At minimum, review:
 
@@ -145,7 +167,7 @@ Use this only if it truthfully describes the actual arrangement. Counsel should 
 - [ ] Contact details and privacy-request instructions are tested end-to-end.
 - [ ] Any cookie/consent controls are tested for their actual behaviour; the policy matches the implementation.
 - [ ] Build output and rendered pages are checked, not just the JSON source.
-- [ ] The relevant gambling/advertising counsel has separately approved the site's commercial content scope under TASK-11.
+- [ ] TASK-11 checks have been completed for each commercial item being considered; any unresolved high-risk item remains unpublished. Paid counsel is not a prerequisite for the privacy-page implementation work.
 
 ## 6. Suggested evidence record
 
@@ -174,7 +196,7 @@ These sources are starting points, not a substitute for counsel's current-law ch
 - Advertising Regulatory Board, current Codes of Advertising Practice (the ARB notes that its code is dynamic): https://www.arb.org.za/The_Codes/
 - Consumer Protection Act, 2008, section 41 (false, misleading or deceptive representations): https://www.gov.za/documents/consumer-protection-act
 
-Counsel should verify current legislation, regulations, regulator guidance and the ARB code/appendices in force at the time of approval. This document does not determine which provisions apply to a specific processing activity or advertising arrangement.
+Check current legislation, regulations, regulator guidance and the ARB code/appendices at the time of each relevant release. This document does not determine which provisions apply to a specific processing activity or advertising arrangement. If a material legal interpretation cannot be resolved from authoritative public sources, record the narrow question and hold the affected feature or claim while continuing unrelated work.
 
 ## 8. Exit criteria — TASK-12 remains open until met
 
@@ -183,9 +205,9 @@ Counsel should verify current legislation, regulations, regulator guidance and t
 - [ ] Actual cookies, logs, analytics, ad-tech, affiliate tracking, forms, embeds and third-party services have been tested and recorded as present/absent/unknown.
 - [ ] Active affiliate relationships and all commercial-link placements are inventoried.
 - [ ] Privacy notice, terms and affiliate disclosure have been revised to match observed facts.
-- [ ] Qualified South African counsel has reviewed the drafts and supplied written conclusions; the gambling/advertising review dependencies from TASK-11 are addressed where relevant.
+- [ ] Official guidance and available authoritative sources have been checked and dated; any unresolved legal interpretation is recorded with a proportionate interim control. Qualified advice is an escalation option for unresolved or high-impact questions, not a blanket gate for all progress.
 - [ ] All required technical controls and visible disclosures have been implemented and tested.
 - [ ] Page statuses are updated only after a human reviewer records evidence, source(s), reviewer and actual verification date.
 - [ ] A non-confidential approval summary and recheck triggers are recorded.
 
-Until these gates are met, the three pages remain draft frameworks and must not be described as final, verified, or legally compliant.
+Until the factual and implementation gates are met, the three pages remain draft frameworks and must not be described as final, verified, or legally compliant. Do not wait for paid legal advice to complete the observable fact-finding, technical tests, disclosure placement and draft revisions. Do not publish statements that are inconsistent with actual behaviour, and do not treat the absence of a lawyer's review as proof that a feature is either lawful or unlawful.
