@@ -3,8 +3,11 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from collections import Counter
-import re, sys
+import re, sys, os
+from urllib.parse import urlparse
 ROOT=Path(__file__).resolve().parents[1]/'dist'
+SITE_URL=os.environ.get('SITE_URL','').strip().rstrip('/')
+SITE_BASE_PATH=urlparse(SITE_URL).path.rstrip('/')
 class Parser(HTMLParser):
     def __init__(self):
         super().__init__(); self.title=''; self.description=''; self.h1=0; self.links=[]; self._title=False
@@ -36,6 +39,8 @@ def main():
             if u.startswith(('http://','https://','mailto:','tel:','#','data:')): continue
             # Root-absolute paths are valid for the documented root-origin deployment.
             if u.startswith('/'):
+                if SITE_BASE_PATH:
+                    errors.append(f'{rel}: root-absolute local target {u} bypasses configured site base path {SITE_BASE_PATH}/')
                 target=ROOT/u.lstrip('/')
             else:
                 target=(f.parent/u).resolve()

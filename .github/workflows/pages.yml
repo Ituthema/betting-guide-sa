@@ -38,6 +38,8 @@ jobs:
         run: python scripts/build.py
 
       - name: Validate website
+        env:
+          SITE_URL: https://ituthema.github.io/betting-guide-sa
         run: python scripts/validate.py
 
       - name: Check for risky promotional claims
