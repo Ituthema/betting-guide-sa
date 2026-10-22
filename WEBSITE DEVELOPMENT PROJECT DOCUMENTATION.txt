@@ -9,9 +9,9 @@ South Africa's Independent Online Betting Review Platform
 Document Type
 Technical Project Specification & Developer Handbook
 Version
-1.0 — Initial Build Edition
+1.2 — Expanded Development Plan Edition
 Date
-June 2026
+22 October 2026
 Dev Environment
 Termux on Android (primary workflow)
 Hosting Target
@@ -29,7 +29,7 @@ CONFIDENTIAL — INTERNAL DEVELOPMENT DOCUMENT
 
 CURRENT IMPLEMENTATION OVERRIDE (Version 1.1 — 22 October 2026)
 
-This document began as a proposed build specification. The live repository has since adopted a Python-generated static-site architecture. Where older sections below describe a single-file hash-routed SPA, manually assembled `index.html`, hash URLs, or commands such as `node --check index.html`, treat those passages as historical proposal text—not instructions for the current codebase. The current repository implementation and its validation scripts take precedence. Use the reconciliation addendum at the end of this document for the current source of truth and implementation order.
+This document began as a proposed build specification. Version 1.2 expands the implementation roadmap and points to the companion, actionable plan at docs/PROJECT_DEVELOPMENT_PLAN.md. The live repository has adopted a Python-generated static-site architecture. Where older sections below describe a single-file hash-routed SPA, manually assembled `index.html`, hash URLs, or commands such as `node --check index.html`, treat those passages as historical proposal text—not instructions for the current codebase. The current repository implementation and its validation scripts take precedence. Use the reconciliation addendum at the end of this document for the current source of truth and implementation order.
 
 Do not treat any licence, rating, bonus, operator feature, affiliate relationship, revenue estimate, legal interpretation, advertising approval, or cookie/consent requirement in this planning document as independently verified. Record evidence and its date before publishing factual claims. The owner's report that listed operators were checked is not a substitute for a retained source register. Do not imply that affiliate applications have been approved or commissions are earned until confirmed by the relevant programme.
 
@@ -1307,3 +1307,23 @@ Version 1.0 — June 2026: Initial project proposal.
 Version 1.1 — 22 October 2026: Reconciled the proposal with the existing Python-generated static-site repository; clarified evidence standards; corrected the SPA/hash-routing recommendation; separated current implementation from future features; and introduced a risk-based launch and monetisation backlog.
 
 END OF CURRENT IMPLEMENTATION RECONCILIATION
+
+
+PROJECT DEVELOPMENT PLAN LINK AND GOVERNANCE ADDENDUM — VERSION 1.2
+Date: 22 October 2026
+
+The companion document docs/PROJECT_DEVELOPMENT_PLAN.md is the operational development plan. It converts the reconciled specification into sequenced work packages, acceptance criteria, evidence standards, validation steps, release gates, and a backlog. Keep this TXT as the broader business/product specification; keep the Markdown plan as the task-level execution source.
+
+Current planning rules:
+1. Re-audit main before starting each implementation task. Counts and repository observations below are dated snapshots, not guaranteed current state.
+2. The existing Python-generated static HTML/CSS/JavaScript architecture is the implementation baseline. Do not replace it with the older proposed single-file hash-routed SPA without a separately reviewed architecture decision.
+3. Do not publish unverified operator, licence, bonus, odds, payout, rating, responsible-gambling contact, affiliate, legal, or advertising claims. User-reported licensing status is not independent verification.
+4. Preserve the staged release order: repository/build and deployment integrity; bookmaker catalogue reconciliation and evidence register; content and responsible-gambling review; accessibility/mobile/SEO QA; affiliate applications; only then approved monetisation integrations.
+5. Affiliate links, commercial offer CTAs, bonus claims, casino/slots/live-casino promotion, analytics, advertising and tracking are gated by evidence, eligibility, operator/program terms, user choice where applicable, and a documented implementation review. Do not represent planned integrations as live.
+6. Work in small, scoped branches and pull requests. Report changed files, validation commands and actual outputs, unresolved issues, and manual checks. Never merge a PR unless the user explicitly asks.
+7. Do not treat projected traffic, conversion, commission, or advertising revenue figures in historical proposal text as forecasts or commitments. They are hypotheses until supported by observed data and documented assumptions.
+
+Version history:
+- Version 1.0 — June 2026: initial proposed build specification.
+- Version 1.1 — 22 October 2026: reconciled the proposed specification with the existing static-site repository and deferred unsupported promotional/monetisation features.
+- Version 1.2 — 22 October 2026: expanded the execution plan, task sequencing, quality gates, evidence governance, and release criteria in docs/PROJECT_DEVELOPMENT_PLAN.md.
