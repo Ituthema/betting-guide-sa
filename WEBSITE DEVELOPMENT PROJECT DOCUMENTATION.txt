@@ -17,15 +17,21 @@ Termux on Android (primary workflow)
 Hosting Target
 GitHub Pages (primary) + Cloudflare CDN
 Tech Stack
-Vanilla HTML5 / CSS3 / ES6+ JavaScript — Zero build step SPA
+Python-generated static HTML/CSS/JS using the existing repository build and validation pipeline
 Revenue Model
-Google AdSense + Affiliate Commissions (20 SA bookmakers)
+Planned future monetisation: approved affiliate partnerships and advertising, subject to evidence, eligibility, implementation, and policy checks
 V1 Categories
-Bookmakers, Slots / Spina Zonke, Soccer, Casino / Live Casino
+Evidence-backed bookmaker information, comparison/review templates, soccer betting education, responsible-gambling information, and core editorial pages. High-risk casino/slots/live-casino promotional CTAs and unverified bonus claims remain deferred.
 
 
 CONFIDENTIAL — INTERNAL DEVELOPMENT DOCUMENT
 
+
+CURRENT IMPLEMENTATION OVERRIDE (Version 1.1 — 22 October 2026)
+
+This document began as a proposed build specification. The live repository has since adopted a Python-generated static-site architecture. Where older sections below describe a single-file hash-routed SPA, manually assembled `index.html`, hash URLs, or commands such as `node --check index.html`, treat those passages as historical proposal text—not instructions for the current codebase. The current repository implementation and its validation scripts take precedence. Use the reconciliation addendum at the end of this document for the current source of truth and implementation order.
+
+Do not treat any licence, rating, bonus, operator feature, affiliate relationship, revenue estimate, legal interpretation, advertising approval, or cookie/consent requirement in this planning document as independently verified. Record evidence and its date before publishing factual claims. The owner's report that listed operators were checked is not a substitute for a retained source register. Do not imply that affiliate applications have been approved or commissions are earned until confirmed by the relevant programme.
 
 
 PART 1 — PROJECT OVERVIEW & VISION
@@ -76,17 +82,13 @@ Casino hub, live casino guide (Evolution games), RTP table, strategy tips, respo
 
 PART 2 — TECHNOLOGY STACK RECOMMENDATION & DECISION
 
-2.1  Recommended Stack: Vanilla HTML/CSS/JS SPA
-Given your development environment (Termux on Android, GitHub Pages hosting, zero build step requirement), the recommended stack is a single self-contained HTML file implementing a hash-based Single-Page Application. This is the optimal choice for your constraints and is the same battle-tested approach as the reference build.
+2.1  Current Stack Decision: Keep the Existing Python-Generated Static Site
+The repository already uses `content/pages.json`, `scripts/build.py`, `scripts/validate.py`, `scripts/check-banned-claims.sh`, and a GitHub Actions Pages workflow. Continue extending this architecture. It produces individual static HTML pages with crawlable path URLs and page-specific metadata, and it is already better aligned with the project's content-led SEO goals than replacing it with a hash-routed single-page app. Do not rebuild the project as a one-file SPA merely to match this original proposal.
 
-Why NOT React, Next.js or Astro at this stage
-React requires a build step (npm run build) — impractical as primary Termux workflow
-Next.js requires a Node.js server or Vercel — cannot deploy to GitHub Pages without a CI pipeline
-Astro also needs a build step and npm ecosystem — adds friction for a solo developer in Termux
-None of these provide SEO advantages over vanilla JS at V1 scale (under 50 page routes)
-Migration to Astro is the correct move at Phase 5 (Month 12+) when content team scales
+Why NOT to replace the current architecture now
+A migration to React, Next.js, or Astro is not justified by this document alone. The current static generator already supports distinct HTML pages and can be developed and validated from Termux. Reconsider a framework only when a measured limitation exists and a migration plan demonstrates a clear benefit.
 
-Why Vanilla SPA on GitHub Pages IS the right call
+Historical alternative considered — NOT the current recommendation (do not implement without a separately approved architecture decision)
 Zero build step — edit index.html in any text editor, git push, site is live in 90 seconds
 GitHub Pages serves static files natively — free, reliable, global CDN available via Cloudflare
 Full control over every byte of CSS and JS — no framework overhead, fastest possible load times
@@ -106,14 +108,14 @@ Styling
 CSS3 + Custom Properties
 Design token system (--navy, --gold, etc.). No Tailwind, no Bootstrap needed.
 Logic
-Vanilla ES6+ JavaScript
-Hash router, T. template helpers, accordion, cookie consent, scroll reveal animations
+Vanilla ES6+ JavaScript for progressive page interactions
+Use the existing static path routes and current assets; do not add a hash router or duplicate content model
 Fonts
 Google Fonts
 Oswald (headings) + Source Serif 4 (body text)
 Content Assembly
 Python 3 scripts
-build_standalone.py generates extension pages; patch scripts update SPA content
+Use the existing repository build script (`scripts/build.py`) and content source (`content/pages.json`)
 Version Control
 Git + GitHub
 Private repo; GitHub Pages deployed from main branch automatically
@@ -144,8 +146,8 @@ All workflows designed for Termux on Android — no PC required at any stage
 
 PART 3 — SPA ARCHITECTURE (TECHNICAL DEEP DIVE)
 
-3.1  File Anatomy — What Lives Inside index.html
-The entire site lives in one file: index.html. It is divided into four logical sections. Understanding this structure is essential before writing a single line of code.
+3.1  Historical SPA Proposal — Not the Current File Anatomy
+The following SPA anatomy, hash-router examples, and template helper descriptions document an earlier proposed approach. They are retained as historical reference only and must not be used to overwrite or bypass the existing Python-generated static-site implementation. For current implementation, inspect `content/pages.json`, `scripts/build.py`, `scripts/validate.py`, `scripts/check-banned-claims.sh`, and `.github/workflows/pages.yml`.
 
 Block
 Size (est.)
@@ -169,7 +171,7 @@ Third <script>
 getPage(), render(), initPage(), hashchange listener, click delegation, IntersectionObserver
 
 
-3.2  The Hash-Based Router — How Navigation Works
+3.2  Historical Hash-Router Example — Not Used by the Current Repository
 The router is the core engine of the SPA. It reads the URL hash, maps it to a page function, injects the result into the DOM, and runs per-page initialisation scripts. The entire site feels like a multi-page website but is actually a single file.
 
 Request Flow — Step by Step
@@ -934,7 +936,7 @@ Add contact details to #contact and #contactlist pages
 Add link to desktop nav Compare dropdown
 Add link to off-canvas mobile OC menu Reviews accordion
 Add to footer bookmaker links column
-Run node --check index.html — confirm zero JS syntax errors
+Run the repository's current Python build, validation, and banned-claims checks; use JavaScript-specific syntax checks only on actual standalone JavaScript files.
 Deploy and test the new route on mobile and desktop
 
 
@@ -1131,3 +1133,177 @@ Initial documentation. New project from scratch. Stack decision, GitHub Pages gu
 
 BETSA-GUIDE.CO.ZA  |  Website Development Project Documentation  |  Version 1.0  |  June 2026
 Replace placeholder brand name before sharing externally. NRGP Helpline: 0800 006 008. For adults 18+ only.
+
+======================================================================
+REPOSITORY RECONCILIATION ADDENDUM — VERSION 1.1
+Date: 22 October 2026
+Status: Current implementation guidance; supersedes conflicting proposal text above
+======================================================================
+
+1. PURPOSE AND PRECEDENCE
+
+This addendum reconciles the original project vision with the actual `Ituthema/betting-guide-sa` repository. The original plan remains useful for business goals, page ideas, mobile-first presentation, editorial templates, responsible-gambling messaging, and a phased approach. It is not an instruction to replace the working architecture or to publish unverified commercial claims.
+
+Precedence order:
+1. Current code, build scripts, validation scripts, workflow configuration, and verified production behaviour.
+2. This Version 1.1 reconciliation addendum.
+3. Earlier Version 1.0 proposal text, only where it does not conflict with the above.
+
+2. CURRENT REPOSITORY BASELINE
+
+The repository's current implementation uses:
+- `content/pages.json` as structured page content.
+- `scripts/build.py` to generate static HTML pages.
+- `scripts/validate.py` to validate content/build expectations.
+- `scripts/check-banned-claims.sh` to detect prohibited or unsupported claim patterns.
+- `.github/workflows/pages.yml` for the Pages workflow.
+- Individual crawlable path URLs and page-specific static HTML/SEO metadata.
+- A browser-side search experience in `assets/search.js`.
+
+A previous repository audit found 77 content records: 55 marked `editorial-review`, 19 marked `needs-verification`, and 3 marked `legal-review-required` (Privacy, Terms, Affiliate Disclosure). At that audit point, zero records were marked `verified`, only 3 had source entries, 74 had none, and all `lastVerified` values were null. Re-run the current validator and inspect the current branch before treating these historical counts as today's baseline.
+
+Do not replace this architecture with the one-file SPA described in Parts 2–8. In particular:
+- Do not make hash URLs the canonical URL format.
+- Do not create a second source of truth in a large inline `index.html` data array.
+- Do not use `node --check index.html` as the project's primary validation command.
+- Add features through the existing content model, Python generator, assets, and validation workflow.
+- Keep canonical URLs and sitemap generation aligned to the actual configured production domain. Do not invent or assume a production domain; verify the selected domain and `SITE_URL` configuration first.
+
+3. REQUIREMENT RECONCILIATION: WHAT TO KEEP, ADAPT, DEFER, OR REJECT
+
+KEEP AND IMPLEMENT THROUGH THE EXISTING ARCHITECTURE
+- Mobile-first responsive layouts, accessible navigation, clear typography, fast loading, and usable comparison tables.
+- Reusable bookmaker review and comparison templates, with transparent methodology and clear separation between facts, editorial opinion, and unknowns.
+- Useful category hubs, search/filtering, FAQs where they genuinely answer user questions, and internal links between relevant static pages.
+- Responsible-gambling information, adult-audience messaging, and visible support resources after their details have been checked against an authoritative current source.
+- A phased release plan, routine broken-link checks, search indexing monitoring, and maintenance documentation.
+- Affiliate disclosures that accurately describe the site's actual commercial relationships and are updated when those relationships change.
+
+ADAPT TO THE CURRENT STATIC GENERATOR
+- Convert proposed `T.reviewCard()`, `T.compareTable()`, `T.postCard()`, FAQ and step components into reusable HTML templates/functions in the existing generator rather than creating an SPA template engine.
+- Represent bookmaker facts in the existing content schema or a documented structured data file, not a duplicated hard-coded JavaScript array.
+- Use individual path routes and generated metadata. Confirm canonical URL, sitemap, and internal links from the current router/build conventions.
+- Use a bookmaker evidence register with source URL, source type, date checked, relevant claim, reviewer/status, and next review date. A page must not be marked verified merely because it has been drafted.
+- Reconcile the bookmaker catalogue before adding records: the earlier audit found 19 bookmaker records, while Version 1.0 names 20. The proposal list includes PalaceBet and ScoreBet, while the repository list includes Interbet. Confirm the intended list and current operator identity before changing the catalogue; do not automatically add or remove a brand to force the count to 20.
+- Add analytics only after selecting the tool, documenting actual data flows, and updating privacy information as needed. Keep analytics disabled until configuration is real and tested.
+- Add advertising only after checking current platform policies, the site's actual content, and eligibility. Approval must never be assumed.
+- Configure monitoring and Search Console after the final domain and production deployment are confirmed.
+
+DEFER UNTIL EVIDENCE OR APPROVAL EXISTS
+- Bonus amounts, promo codes, minimum deposits, wagering requirements, expiry dates, payment claims, app/data-free claims, odds claims, and other time-sensitive operator-specific statements until checked against current official terms or another reliable primary source.
+- Numerical ratings, rankings, “best” claims, and comparative verdicts until a published, consistently applied methodology and evidence exist. Do not invent review scores or imply first-hand testing that did not occur.
+- Affiliate buttons, tracked links, CPA/RevShare assumptions, affiliate dashboards, and conversion reporting until the relevant programme accepts the publisher and supplies the authorised tracking URL/terms. Before approval, use clearly labelled official operator links only where appropriate; do not disguise them as affiliate links.
+- Newsletter collection until a real delivery provider, consent flow, unsubscribe process, privacy notice, and secure handling approach are implemented and tested.
+- AdSense and other advertising integrations until eligibility and policy fit are confirmed. Do not claim that a particular number of pages guarantees approval.
+- Casino, slots, Spina Zonke, live-casino, and promotional bonus CTAs while the exact product, operator scope, applicable rules, and advertising treatment remain unresolved. General neutral editorial or responsible-gambling material should still be reviewed for factual accuracy and suitability before publication.
+
+DO NOT IMPLEMENT AS WRITTEN
+- A full rewrite into a hash-routed single-page application.
+- Any fabricated licence number, official status, rating, review, bonus, offer, partner relationship, commission, user testimonial, or revenue result.
+- Unsupported promises of guaranteed winnings, beating the house, or assured outcomes.
+- A cookie banner presented as automatically legally required for every technology, or a blanket statement that it is required for advertising approval, without checking the actual technologies, current law, and current platform rules. Implement controls based on the real data collection and applicable requirements.
+- A claim that a privacy policy is “POPIA compliant” simply because a template contains a list of topics. Document actual collection, purposes, recipients, retention, rights, security, and contact process, and obtain appropriate review when feasible.
+- Revenue forecasts or CPA figures presented as expected/confirmed income. Keep estimates clearly labelled as assumptions and do not use them as proof of commercial viability.
+
+4. SOURCE AND CLAIM EVIDENCE STANDARD
+
+For each material bookmaker/operator claim, record:
+- Operator/brand and exact product or service covered.
+- Claim being made.
+- Primary source URL (prefer official terms, official help page, or regulator source).
+- Date checked and, where available, effective/expiry date.
+- Evidence excerpt or a concise factual note.
+- Status: `verified`, `needs-verification`, `editorial-review`, or `legal-review-required`.
+- Reviewer and next review date, where available.
+
+Use `verified` only when the retained evidence supports the exact published claim and is sufficiently current. If evidence is missing or ambiguous, omit the claim or label it as unverified internally; do not publish it as fact. Separate owner-reported checks from independently retained evidence.
+
+5. AFFILIATE APPLICATION READINESS
+
+The site should become credible and reviewable before affiliate applications are submitted. The minimum practical sequence is:
+1. Confirm the brand and production domain; configure canonical URLs and sitemap.
+2. Run the production route and mobile smoke tests.
+3. Ensure the About, Contact, Privacy, Terms, Affiliate Disclosure, and Responsible Gambling content reflects actual site operations and is fact-checked. These pages must not claim services or data practices that are not implemented.
+4. Remove placeholder, fabricated, expired, unsupported, or misleading operator claims.
+5. Build the evidence register for every bookmaker page and reconcile the bookmaker list.
+6. Keep an application log with programme, application date, status, contact, approved terms, authorised tracking link, and restrictions.
+7. Apply when the site is ready for review. Record approval and terms before adding affiliate links or representing the site as a partner.
+
+No paid legal consultation is assumed as a prerequisite for continuing ordinary lower-risk editorial and engineering work. However, uncertainty around high-risk promotional content must not be resolved by guessing. Keep unresolved casino/slots/live-casino promotional CTAs and bonus promotions on hold while continuing the lower-risk site work.
+
+6. PRIVACY, COOKIES, ANALYTICS, AND ADVERTISING
+
+Do not copy generic compliance statements into the site without mapping them to the actual implementation. Before enabling a third-party script, ad tag, analytics tool, newsletter, embedded media, or other tracker:
+- identify what data it collects and when it fires;
+- review the current provider terms and relevant official requirements;
+- determine whether notice, consent, opt-out, or other controls apply;
+- implement the chosen controls and test that they work;
+- update privacy and disclosure pages to match the real behaviour.
+
+Do not assume that a banner alone provides compliance, that a reject button works without technical enforcement, or that adding a privacy page guarantees compliance. Do not assume AdSense approval or that a fixed page-count threshold guarantees acceptance.
+
+7. SEO AND ROUTING RULES
+
+- Preserve the current individual static path routes.
+- Generate unique page titles and descriptions from real page content.
+- Ensure sitemap entries are canonical, reachable, and match the configured production domain.
+- Do not put hash-only routes in the sitemap as if they were separate static pages.
+- Use structured data only when the page content genuinely supports the chosen schema and all required properties are accurate. Do not add Review/Product ratings or FAQ markup to manufacture rich results.
+- Check internal links, status codes, canonical tags, robots directives, and generated output after each relevant change.
+- Do not promise search rankings or traffic from keyword inclusion alone.
+
+8. CURRENT VALIDATION WORKFLOW
+
+Run these commands from the repository root in the existing Python environment (including Termux where Python 3 is installed):
+
+```sh
+python3 scripts/build.py
+python3 scripts/validate.py
+bash scripts/check-banned-claims.sh
+```
+
+Inspect the actual output and generated diff. A successful build does not prove that operator facts, legal wording, privacy practices, or advertising eligibility are correct. For routing or deployment changes, additionally run the repository's relevant GitHub Actions checks and a manual smoke test of representative generated URLs after deployment. Do not claim tests passed unless they were run and their output inspected.
+
+9. IMPLEMENTATION BACKLOG (PRIORITY ORDER)
+
+P0 — Release integrity
+- Confirm the canonical brand and production domain; verify `SITE_URL`, canonical links, and sitemap output.
+- Run build, content validation, banned-claims check, and GitHub Actions; fix confirmed failures.
+- Smoke-test home, search, category, individual bookmaker, legal, and responsible-gambling pages on mobile.
+- Ensure no placeholder content, dead links, fabricated claims, or misleading affiliate labels remain on launch-critical routes.
+
+P1 — Evidence and catalogue quality
+- Reconcile the intended bookmaker list (19 current records versus 20 proposed) before changing coverage.
+- Create/populate the evidence register; review all 19 existing bookmaker records and prioritise the records intended for launch.
+- Correct unsupported, stale, or ambiguous operator-specific facts; leave unresolved claims unpublished.
+- Review Privacy, Terms, Affiliate Disclosure, About, Contact, and Responsible Gambling pages against actual site behaviour.
+
+P2 — Editorial and UX improvements
+- Add reusable comparison/review patterns through the Python generator.
+- Improve search, filters, accessibility, mobile tables, page speed, and related-page navigation where a specific defect or user need is confirmed.
+- Publish helpful evergreen guides with clear sources, author/reviewer information where appropriate, and realistic update dates.
+
+P3 — Monetisation after readiness
+- Apply to affiliate programmes and log each outcome.
+- Add only approved, authorised tracking links with clear disclosure.
+- Assess analytics and advertising against current provider requirements and actual data practices before enabling.
+- Add newsletter or sponsored placements only when the full user/data and disclosure workflow is implemented.
+
+P4 — Reassess architecture only with evidence
+- Consider a framework migration only after documenting a measurable limitation of the current generator, expected benefits, hosting compatibility, migration cost, and rollback plan. Do not schedule migration merely because Version 1.0 mentioned Phase 5.
+
+10. OPEN DECISIONS — DO NOT GUESS
+
+- Final public brand and production domain.
+- Intended bookmaker catalogue and whether PalaceBet, ScoreBet, and Interbet should each be included, based on verified scope.
+- Which operator records have current, retained primary-source evidence.
+- Which affiliate programmes accept the site and what exact content/link restrictions they impose.
+- Which analytics/ad/newsletter providers, if any, will be enabled.
+- The final treatment of casino/slots/live-casino promotions after exact product scope and applicable rules are checked.
+
+11. REVISION HISTORY
+
+Version 1.0 — June 2026: Initial project proposal.
+Version 1.1 — 22 October 2026: Reconciled the proposal with the existing Python-generated static-site repository; clarified evidence standards; corrected the SPA/hash-routing recommendation; separated current implementation from future features; and introduced a risk-based launch and monetisation backlog.
+
+END OF CURRENT IMPLEMENTATION RECONCILIATION
