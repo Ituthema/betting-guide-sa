@@ -5,6 +5,14 @@
 **Repository snapshot:** `content/pages.json` blob `72aff34e4cd70401bd2c3970250c96a5afa403e4`  
 **Owner decision recorded here:** operational precaution only; **not a legal opinion, counsel approval, or compliance certification**.
 
+## 1.1 Owner-reported bookmaker checks and affiliate onboarding status
+
+**Owner-reported update (2026-10-22):** the project owner states that every bookmaker currently listed on the site has already been checked for legal registration/licensing to operate in South Africa. The owner also states that no bookmaker affiliate programme applications have yet been submitted because the programmes require a working website before approving prospective affiliates.
+
+**Evidence status:** this is a record of the owner's report, not an independent re-audit performed by this documentation change. Before publishing a specific licence claim or marking a bookmaker record `verified`, retain the source URL or official register extract, review date, exact legal entity, relevant provincial authority and the scope the evidence supports. Do not infer that the operator's every product or promotion is covered by the same evidence.
+
+**Implementation consequence:** build and complete the working website before affiliate applications. Until a programme accepts the publisher and its terms are reviewed, do not claim that the site is an approved affiliate partner, invent tracking links, or state that commissions are already earned. Prepare the affiliate disclosure so it can accurately describe the actual relationship when one exists, and recheck each programme's terms before using its links or promotional assets.
+
 ## 1. Decision
 
 Adopt **Option A as the current risk-control posture**, not as a finding that a paid legal opinion is a prerequisite for all project progress. Continue building navigation, page templates, source/evidence tooling, neutral educational material, privacy fact-finding, accessibility, testing and other work that does not depend on unresolved promotional claims. Sports and horse-racing information, odds education and responsible-gambling education may continue through human editorial review and evidence checks.
