@@ -6,6 +6,12 @@
 **Scope:** Readiness review for `/legal/privacy/`, `/legal/terms/`, and `/affiliate-disclosure/`  
 **Important:** This is an implementation and review brief, not legal advice, a POPIA compliance certification, or approval to publish final legal policies.
 
+## 1.1 Owner-confirmed affiliate programme status
+
+**Owner-reported update (2026-10-22):** the owner says all bookmakers currently listed have been checked for South African legal registration/licensing. No affiliate programmes have yet been joined or applied to because the programmes require a working website before approval.
+
+Treat this as owner-provided context, not an independent verification of each licence or a confirmation of any affiliate relationship. The current affiliate disclosure must not imply that the site already earns commissions or is approved by a bookmaker unless and until that becomes true. Prepare accurate conditional disclosure wording, then update it when a programme is accepted and the actual commission/tracking terms are known.
+
 ## 1. Executive decision
 
 Do not mark any of the three legal pages `verified` or represent them as final. Their current content is explicitly framework/draft language, their `lastVerified` fields are null, and no source entries are recorded. The actual business identity, contact route, deployed domain, data flows, third-party services and affiliate agreement terms have not yet been evidenced in this task.
