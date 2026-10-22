@@ -1,17 +1,17 @@
 # TASK-11 — Content-scope decision and legal-review brief
 
-**Status: INTERIM HOLD — qualified South African legal advice required before final decision.**  
+**Status: OWNER-ADOPTED PRECAUTIONARY INTERIM SCOPE — continue low-risk development and evidence gathering; hold only specific high-risk promotions that cannot currently be verified.**  
 **Prepared:** 2026-10-22  
 **Repository snapshot:** `content/pages.json` blob `72aff34e4cd70401bd2c3970250c96a5afa403e4`  
 **Owner decision recorded here:** operational precaution only; **not a legal opinion, counsel approval, or compliance certification**.
 
 ## 1. Decision
 
-Adopt **Option A as the temporary operating posture**: sports betting information, horse-racing information, probability/odds education and responsible-gambling education may continue through controlled editorial review; **hold online casino/slots/live-casino promotion and all casino-related affiliate CTAs pending written advice from a qualified South African gambling/advertising lawyer**.
+Adopt **Option A as the current risk-control posture**, not as a finding that a paid legal opinion is a prerequisite for all project progress. Continue building navigation, page templates, source/evidence tooling, neutral educational material, privacy fact-finding, accessibility, testing and other work that does not depend on unresolved promotional claims. Sports and horse-racing information, odds education and responsible-gambling education may continue through human editorial review and evidence checks.
 
-This is a precautionary interim scope decision, not a conclusion that every mention or educational discussion of casino games is unlawful. Counsel must decide whether and how neutral explanatory material may be published, whether any operator's product is within a lawful licensed betting scope, and whether affiliate publishing changes the legal analysis.
+For now, **do not publish casino/slots/live-casino affiliate CTAs, bonus promotions or participation-oriented calls to action unless the exact product, operator, advertising treatment and applicable legal scope can be verified from authoritative sources and the project owner has recorded the decision**. Where public sources do not resolve a material question, keep that specific promotion unpublished and continue unrelated work. This is a precaution, not a conclusion that every neutral mention or educational discussion of casino games is unlawful. Professional advice is an optional escalation route for unresolved or high-impact questions, not a blanket prerequisite for developing the site.
 
-Do not add affiliate URLs, promo codes, current bonus claims or “play now” links to casino pages while this hold is in effect. Do not use this document to mark any operator as licensed or verified.
+Do not add affiliate URLs, promo codes, current bonus claims or “play now” links to held casino pages. Do not use this document to mark any operator as licensed or verified. A checklist or source citation alone does not guarantee compliance.
 
 ## 2. Why the hold is necessary
 
@@ -24,7 +24,7 @@ Official and current source material creates a material distinction between onli
 - The National Gambling Regulations' advertising provisions include restrictions on implying guaranteed success, presenting gambling as a way out of financial difficulties, and placing ads in media primarily directed at under-18s. Check the current regulations and applicable provincial rules with counsel.
 - The Advertising Regulatory Board maintains a Gambling Appendix and says its code is dynamic; verify the version currently in force before release: https://www.arb.org.za/The_Codes/
 
-**Legal uncertainty to resolve:** the treatment of online casino-style products, operator offerings described as “games” or “bets”, affiliate publishers, and provincial licensing scope may require nuanced analysis. Do not infer that a bookmaker's licence automatically authorises every product on its website or that an operator appearing on the NGB portal is licensed for every advertised product.
+**Practical rule for uncertainty:** first check the current National Gambling Act and Regulations, National Gambling Board guidance and verified-operator information, the relevant provincial licensing authority, and the current Advertising Regulatory Board code/appendix. Save the exact source URL, access/review date, product and legal-entity match, and the conclusion supported by that evidence. Do not infer that a bookmaker's licence automatically authorises every product on its website or that an operator appearing on the NGB portal is licensed for every advertised product. If authoritative sources do not resolve the specific question, do not publish that claim or promotion yet; continue work on unrelated site features. A qualified adviser can be consulted if affordable or if the unresolved risk justifies escalation, but this document does not make paid advice a universal project gate.
 
 ## 3. Page-scope inventory
 
@@ -119,19 +119,26 @@ The list below covers all **77** records in the audited content snapshot. These 
 - `/legal/terms/` — **HOLD FOR LEGAL REVIEW — draft only; confirm actual business/data practices before publishing as final policy.**
 - `/affiliate-disclosure/` — **HOLD FOR LEGAL REVIEW — draft only; confirm actual business/data practices before publishing as final policy.**
 
-## 4. Conditions before releasing held content
+## 4. Low-cost verification workflow before releasing held content
 
-A qualified South African lawyer with gambling and advertising experience should provide written advice covering:
+Use this sequence for each proposed page, operator claim, promotion or commercial link. It is designed to let the startup progress without treating a paid legal consultation as a prerequisite for every task. It is an internal control, not a legal safe harbour.
 
-1. Whether the site's proposed affiliate publisher model and commission-based links are lawful for each category of product and operator.
-2. Whether online casino, slots, live casino, crash-style games, instant games, and casino-style products offered by betting operators can be discussed, compared, advertised or linked to; distinguish neutral education from promotion.
-3. Whether each intended operator is licensed for the exact activity and province/jurisdiction being advertised, and how the NGB portal and provincial licensing records should be checked.
-4. The applicable National Gambling Act and Regulations, the latest ARB Gambling Appendix and any new or proposed amendments, plus provincial laws/directives relevant to the site and audience.
-5. Mandatory warning text, age restrictions, warning prominence/placement, responsible-gambling helpline details, promotion/bonus rules and any affiliate disclosure obligations.
-6. Whether paid search, social media, display ads, SEO pages, email, push messages, influencer/third-party traffic or deep links create additional obligations or prohibited placements.
-7. Whether the site's intended commercial activity affects the treatment of operator names, calls to action, review rankings, comparative claims and editorial-independence statements.
+1. **Define the exact item.** Record the URL/page, exact product category, legal operator entity, province/jurisdiction, intended audience, commercial relationship and whether the item is neutral education, a comparison, an ad, an affiliate link or a call to action.
+2. **Check official sources first.** Review the current National Gambling Act and Regulations, National Gambling Board guidance/verified-operator data, the relevant provincial licensing authority, and the current Advertising Regulatory Board code and gambling appendix. Check the actual product and legal entity, not only the brand name.
+3. **Check the claim itself.** Save official terms or product information for any offer, price, odds, payment, availability or operator feature. Record exact URL, date checked, evidence excerpt/screenshot where permitted, expiry/recheck date, and reviewer.
+4. **Run the advertising-risk check.** Do not use misleading or unsupported claims, target minors, imply guaranteed success, present gambling as income or relief from financial difficulty, encourage chasing losses, or omit applicable responsible-gambling warnings. Check the format-specific and current rules before publication.
+5. **Make and record a proportionate decision.** Mark the item as verified for the specific claim/date, editorial review, needs verification, or hold. A verified status must not be used to certify the whole operator or prove every product lawful.
+6. **Escalate only the unresolved issue.** If official material is conflicting, incomplete or does not establish the legality of a high-impact product/promotion, keep that item unpublished and document the exact question. Seek regulator clarification or qualified advice when available and proportionate. Do not stop unrelated development.
+7. **Recheck when facts change.** Revisit the evidence when the operator, offer, product, affiliate arrangement, law, regulator guidance or ARB code changes, and before volatile offers go live.
 
-Request the lawyer's name/firm, date, materials reviewed, written conclusions, assumptions, product-by-product scope and any conditions or exclusions. Keep the written advice in a restricted-access location; this public repository should contain only a non-confidential decision summary unless counsel approves publication.
+### Specific questions for an optional adviser or regulator clarification
+
+- Whether a particular product/category can be discussed, compared, advertised or linked to under the evidence available.
+- Whether a specific operator's provincial licence covers the exact entity and product.
+- Which warnings, disclosures, age safeguards and placement rules apply to the exact format.
+- Whether the affiliate arrangement or paid traffic method changes the assessment.
+
+Keep confidential advice and contracts outside this public repository. Record only a non-confidential summary, date, scope and resulting project decision.
 
 ## 5. Editorial controls during the hold
 
@@ -145,14 +152,16 @@ Request the lawyer's name/firm, date, materials reviewed, written conclusions, a
 
 ## 6. Exit criteria for TASK-11
 
-TASK-11 is **not complete** until all of the following exist:
+TASK-11 can move from initial triage into ongoing controlled implementation when the project owner has completed the following evidence-based steps; **a paid legal opinion is not a prerequisite for unrelated site development or for recording verified facts**:
 
-- [ ] Written opinion from qualified South African gambling/advertising counsel.
-- [ ] Counsel's explicit decision on each relevant content/product category and affiliate monetisation.
-- [ ] Page-by-page inventory approved by the project owner after counsel's advice.
-- [ ] Approved content keep/rewrite/retire decisions and any redirect list.
-- [ ] Documented requirements for warnings, age restrictions, promotion rules and disclosure placement.
-- [ ] Public-facing copy updated only after the decision is documented; no automatic change to `verified` status.
-- [ ] Final non-confidential decision summary recorded in `docs/decisions/0001-content-scope.md` after counsel's advice, with reviewer/date and any conditions.
+- [ ] Each proposed commercial item has a recorded category, operator legal entity, product scope, intended format and audience.
+- [ ] Official national and relevant provincial sources have been checked, with URL and actual review date recorded.
+- [ ] The current ARB code/appendix and relevant advertising rules have been checked for the intended format.
+- [ ] Each factual claim has direct supporting evidence, reviewer/date and a recheck trigger; unsupported claims remain unpublished.
+- [ ] Applicable warning, age-safeguard and affiliate-disclosure requirements have been identified and implemented before the relevant promotion is released.
+- [ ] Unresolved high-risk items are specifically held, with the question and missing evidence recorded; other development continues.
+- [ ] The owner records keep/rewrite/retire decisions for the affected pages and any redirects.
+- [ ] No page or operator is upgraded to verified without evidence for the exact claim; this is not a blanket legal-compliance certification.
+- [ ] If regulator guidance or qualified advice is later obtained, update the decision with the date, scope, assumptions and actions without publishing confidential material.
 
-Until then, this file records a **temporary hold**, not final legal clearance. TASK-12 (privacy, terms and affiliate disclosure finalisation) should use counsel's findings where relevant and must not be represented as complete before review.
+This document records a **precautionary operating decision, not legal clearance**. TASK-12 (privacy, terms and affiliate disclosure) can proceed in parallel through factual inventory, implementation checks and page-specific drafting. Do not represent any legal page as final or any high-risk promotion as approved merely because this checklist is complete.
