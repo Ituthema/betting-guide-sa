@@ -40,6 +40,9 @@ jobs:
       - name: Validate website
         run: python scripts/validate.py
 
+      - name: Check for risky promotional claims
+        run: bash scripts/check-banned-claims.sh dist
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
 
