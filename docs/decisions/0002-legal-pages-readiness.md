@@ -1,0 +1,235 @@
+# TASK-12 — Privacy, Terms and Affiliate Disclosure Readiness
+
+**Status:** DRAFT FOR OWNER FACT-CHECKING, IMPLEMENTATION TESTS AND EVIDENCE-BASED REVISION  
+**Prepared:** 2026-10-22  
+**Repository:** `Ituthema/betting-guide-sa`  
+**Scope:** Readiness review for `/legal/privacy/`, `/legal/terms/`, and `/affiliate-disclosure/`  
+**Important:** This is an implementation and review brief, not legal advice, a POPIA compliance certification, or approval to publish final legal policies.
+
+## 1.1 Owner-confirmed affiliate programme status
+
+**Owner-reported update (2026-10-22):** the owner says all bookmakers currently listed have been checked for South African legal registration/licensing. No affiliate programmes have yet been joined or applied to because the programmes require a working website before approval.
+
+Treat this as owner-provided context, not an independent verification of each licence or a confirmation of any affiliate relationship. The current affiliate disclosure must not imply that the site already earns commissions or is approved by a bookmaker unless and until that becomes true. Prepare accurate conditional disclosure wording, then update it when a programme is accepted and the actual commission/tracking terms are known.
+
+## 1. Executive decision
+
+Do not mark any of the three legal pages `verified` or represent them as final. Their current content is explicitly framework/draft language, their `lastVerified` fields are null, and no source entries are recorded. The actual business identity, contact route, deployed domain, data flows, third-party services and affiliate agreement terms have not yet been evidenced in this task.
+
+Keep the existing `legal-review-required` statuses unchanged. This task adds a documented checklist and a fact-gathering record; it does not assert that the site is compliant or that a specific cookie, analytics tool, form, tracking pixel, or affiliate programme is in use.
+
+TASK-11's content-scope controls are a separate workstream. This task can proceed now: inventory real data practices, verify the site, prepare accurate page drafts and implement visible disclosures. It does not authorise any casino promotion or affiliate link that remains unverified. A paid legal consultation is not a blanket prerequisite for this work, but unresolved legal questions must be documented and the affected high-risk activity must not be launched merely because a draft or checklist exists.
+
+## 2. Preliminary repository-only implementation findings
+
+Checked against `main` source files on 2026-10-22. These are code-inspection findings only; they are not a deployed-browser test, hosting-provider audit, or proof that a service is absent from the production environment.
+
+| Area | Finding in inspected source | Privacy/compliance follow-up |
+|---|---|---|
+| Site architecture | `scripts/build.py` generates static HTML from `content/pages.json`; the workflow runs a Python build and publishes the `dist/` output to GitHub Pages. | Confirm the actual production domain and review the hosting provider's applicable logging, retention and data-processing information. |
+| Third-party requests | The shared page template loads Google Fonts CSS and preconnects to `fonts.googleapis.com` and `fonts.gstatic.com`. | Record this as a third-party request; decide whether to keep it, self-host fonts, or describe it accurately in the privacy notice based on the actual deployment and applicable rules. |
+| Search | The generated page includes a site-search form that submits a query to the local `/search/` route; `assets/search.js` filters the pre-rendered list in the browser and reads the `q` URL parameter. No external search API is visible in the inspected code. | Test the deployed behaviour and remember that search terms may appear in the URL/browser history and potentially in hosting logs. |
+| Browser storage and cookies | `assets/site.js` hides the 18+ reminder when clicked and toggles a sticky header on scroll. `assets/search.js` filters local page cards. The inspected versions do not call `localStorage`, set cookies, or implement a consent banner. | Verify the complete deployed site and hosting/platform behaviour before stating that no cookies or other storage are used. Do not claim a consent mechanism exists unless one is implemented and tested. |
+| Analytics / advertising pixels | No analytics SDK, advertising pixel or consent-management integration was found in the inspected `scripts/build.py`, `assets/site.js` and `assets/search.js` files. | Treat as “not found in inspected files”, not “confirmed absent from production”; inspect all assets, hosting integrations and network requests before finalising the inventory. |
+| Forms and backend | The inspected page shell contains a GET search form. The README says no fake-success contact form is included and that a contact backend has not yet been chosen. | Confirm this against the full generated site and deployment. Do not publish a contact/privacy-request process until a working, monitored channel exists. |
+| Commercial links | The current source snapshot has no source entries on the content records observed in the prior audit, and the legal pages do not evidence active affiliate agreements. | Confirm whether any affiliate programme or external commercial URL is actually configured before describing current commissions or partners. |
+
+**Evidence limits:** this table does not inspect the GitHub Pages production runtime, DNS/CDN configuration, server logs, account settings, browser extensions, or third-party account dashboards. The owner must still test the deployed site in a clean browser session and update each inventory item to present/absent/unknown with evidence.
+
+## 3. Existing pages and observed gaps
+
+The following is based on the current `content/pages.json` entries, not on a live-site crawl or a runtime inspection.
+
+| Route | Current status | Observed issue / required action |
+|---|---|---|
+| `/legal/privacy/` | `legal-review-required` | Correctly says the final notice must reflect actual collection, purposes, lawful basis where applicable, retention, recipients, security, rights and contact route. Those implementation facts are not yet documented in the repository. |
+| `/legal/terms/` | `legal-review-required` | Generic framework only. Owner identity, governing-law/jurisdiction wording, contact details, intellectual-property position, affiliate arrangements, actual site functionality and liability wording need owner decisions and legal review. |
+| `/affiliate-disclosure/` | `legal-review-required` | Describes possible commissions conditionally, but the actual programmes, qualifying actions, link labels, compensation terms and placement on pages are not evidenced. |
+| `/about/` | `editorial-review` | Mentions possible affiliate links and editorial standards. Align it with the final disclosure, but do not upgrade its status based only on this brief. |
+
+Common issue: the three legal pages currently repeat generic “scope and implementation checks”, “corrections, contact and review”, and “commercial relationships and user protection” sections. These should eventually be replaced with page-specific, fact-checked wording rather than copied boilerplate.
+
+## 4. Fact-finding record — owner confirmation required
+
+Do not guess these values. Record the owner's confirmed answer and evidence in a restricted project record; only non-confidential conclusions should be committed to this public repository. This fact-finding and technical work can be completed without paying for a legal opinion. Where a question is about legal interpretation rather than an observable site fact, record it separately and do not invent an answer.
+
+### A. Publisher identity and contact
+
+- [ ] Legal name of the person/entity operating the website.
+- [ ] Business/trading name, if different.
+- [ ] Country and business/contact address where legally appropriate to disclose.
+- [ ] A working privacy/contact email or contact form, with an owner responsible for monitoring it.
+- [ ] Who is the POPIA responsible party and who acts as Information Officer, if applicable; confirm any registration/appointment duties with counsel.
+- [ ] Hosting/deployment domain(s), including canonical domain, redirects, and any preview domains that collect visitor data.
+- [ ] Who receives and responds to access, correction, objection, deletion, complaint and privacy requests, and the process for identity verification.
+
+**Release gate:** never publish invented contact details, an unmonitored mailbox, an unconfirmed legal entity, or a claim that an officer is registered/appointed unless verified.
+
+### B. Actual personal-information and technology inventory
+
+Inspect the built site and repository configuration and confirm the production deployment. For each item, record **present / absent / unknown**, the purpose, data collected, provider, retention, sharing, transfer locations, and evidence.
+
+- [ ] Web-server/hosting logs and security telemetry (including IP addresses, user agents, request logs and retention).
+- [ ] Analytics or measurement tools.
+- [ ] Advertising tags, pixels, remarketing, conversion tracking or ad networks.
+- [ ] Affiliate redirect links, click identifiers, cookies, pixels, postbacks, and operator-side tracking.
+- [ ] Cookies, local storage, session storage, service workers and other browser identifiers.
+- [ ] Forms, newsletter signup, contact messages, account/login features, comments, surveys or user-submitted content.
+- [ ] Embedded video, maps, social widgets, external fonts, or other third-party requests.
+- [ ] Email, customer support, CRM, consent-management and anti-spam services.
+- [ ] Backups, logs, exports and any local spreadsheets containing visitor or partner information.
+- [ ] Whether any personal information is transferred outside South Africa or made accessible to overseas service providers.
+- [ ] Security controls, access restrictions, breach-response process and deletion/retention schedules.
+
+A static site can still generate server logs or load third-party resources. Do not assume “no accounts” means “no personal information”; equally, do not claim analytics, advertising cookies, forms or tracking are active without evidence.
+
+### C. Affiliate/commercial relationships
+
+- [ ] Names of actual affiliate networks and operator partners, if any.
+- [ ] Agreements/terms governing commission triggers, attribution windows, tracking, reversals, payment, use of logos and required disclosures.
+- [ ] Whether compensation depends on clicks, registrations, first deposits, betting activity, revenue share or another event.
+- [ ] Whether any operator or network can pay for ranking, placement, review language, sponsored pages or editorial changes.
+- [ ] Every page/template location with a commercial link, CTA, badge, comparison table or sponsored placement.
+- [ ] Whether the site uses direct operator links, network redirects, URL parameters, shortened URLs or other tracking.
+- [ ] Whether any “independent”, “best”, “top”, “recommended”, “licensed”, “verified” or “no extra cost” claim can be evidenced and is approved.
+- [ ] Required age, responsible-gambling and promotion warnings and their placement, as determined by counsel.
+
+Do not say the site “may earn commission” as though that is a current fact if there are no active affiliate links or agreements. Before commercial links go live, make the disclosure accurate to the actual arrangement and visible before or at the point where a reader may act.
+
+## 4. Page-specific drafting requirements for counsel
+
+These are required topics, not ready-to-publish legal copy.
+
+### 5. Low-cost implementation workflow
+
+Complete these steps in order. They are practical evidence controls, not a promise or certification of legal compliance.
+
+1. **Inventory before drafting.** Confirm the publisher identity and contact route; inspect repository code, hosting configuration and the deployed site; list logs, storage, cookies, forms, analytics, ads, affiliate tracking, embeds and third-party requests as present, absent or unknown.
+2. **Test what visitors actually experience.** Use a clean browser session and mobile layout; inspect requests and browser storage where possible; test every form, privacy contact route, cookie/consent control and external/commercial link. Record date, evidence and limitations.
+3. **Use official guidance.** Read current POPIA and PAIA materials from the Information Regulator and relevant government sources. For advertising and gambling-related content, use the current National Gambling Board guidance, applicable legislation/regulations and the current ARB Code/Appendix. Record the URL and date checked.
+4. **Draft from confirmed facts.** Write the privacy notice to match actual processing; write terms to match the site's real functions and publisher decisions; write the affiliate disclosure to match actual commercial relationships. Do not invent an entity, contact address, partner, cookie, consent banner, retention period or security control.
+5. **Implement visible disclosures and contact handling.** Make policies easy to find, put short disclosures close to relevant commercial links, ensure mobile readability, and provide a monitored contact path before inviting privacy requests.
+6. **Keep unresolved questions narrow.** If official guidance does not settle a material interpretation, log the exact issue, affected page/feature, source already checked and interim control. Keep the specific high-risk feature or claim unpublished; continue unrelated development. Regulator clarification or qualified advice may be pursued when available and proportionate, but do not present it as a prerequisite for ordinary engineering or factual verification.
+7. **Review and recheck.** Have a human reviewer compare the draft against observed behaviour and evidence. Record reviewer/date, change triggers and the next recheck. Revisit when vendors, data uses, partners, domains, functionality or relevant rules change.
+
+### Suggested task statuses
+
+- **Ready for implementation:** the required fact is known and a technical or editorial action can proceed.
+- **Needs owner confirmation:** an operational fact, identity, contact route or commercial relationship is unknown.
+- **Needs verification:** the source or live behaviour has not been checked.
+- **Hold this feature/claim:** a specific material risk cannot yet be resolved; do not treat this as a block on unrelated site work.
+- **Draft only:** wording exists but does not yet match verified implementation facts.
+
+Do not use a completed checklist to label a policy legally approved or the site fully compliant. Keep confidential contracts, credentials, personal information and privileged advice out of the public repository.
+
+## 5.1 Privacy Policy — `/legal/privacy/`
+
+Prepare a plain-language notice based on the completed inventory above. Use current POPIA/PAIA legislation and official Information Regulator guidance to identify the notices and processes that apply to the facts you have confirmed. If a material interpretation remains unclear, record the exact question and consider qualified advice as an escalation option. At minimum, review:
+
+1. Publisher/responsible-party identity and a working privacy contact.
+2. Each category of personal information actually processed, including information generated by site infrastructure or affiliate tracking.
+3. Purposes for each processing activity and the applicable lawful justification; do not use a generic “consent” statement for every purpose without checking.
+4. Whether information is collected directly or indirectly, and any required notice when information is obtained from another source.
+5. Actual recipients/operators, affiliate networks, advertisers, hosting providers and other service providers.
+6. Retention periods or objective criteria, including logs, support messages and tracking identifiers.
+7. Security safeguards described at a level the operator can substantiate; do not promise absolute security.
+8. Data-subject rights and a practical request process, including how to complain to the Information Regulator where appropriate.
+9. Cross-border transfers and safeguards, if applicable.
+10. Cookies and similar technologies: list actual technologies and purposes; link to a separate cookie notice/policy if needed.
+11. Direct marketing and optional analytics/advertising choices, including what consent or objection controls are actually implemented.
+12. Effective date, version/review date and a process to update the notice when processing changes.
+
+**Implementation check:** test the deployed site in a clean browser session, inspect network requests and storage, and compare findings against the written inventory. A policy must not claim a consent banner or opt-out mechanism exists unless it works.
+
+### 5.2 Terms of Use — `/legal/terms/`
+
+The owner should decide whether separate terms are appropriate for this informational affiliate site, using the site's actual functions and applicable official guidance. For unresolved questions about enforceability or statutory rights, record the issue and consider qualified advice. Confirm:
+
+1. Correct publisher identity and contact route.
+2. Permitted use, intellectual property, third-party marks and user-submitted material (if any).
+3. Nature and limits of editorial information, update frequency and how corrections are handled.
+4. Clear separation between general information and personalised advice, predictions, or guarantees; avoid using a disclaimer to excuse misleading claims.
+5. External links and third-party operator terms, while not implying the publisher controls those services.
+6. Affiliate and sponsored content relationship, with a cross-link to the disclosure.
+7. Responsible-gambling, age and jurisdictional limitations consistent with the approved content scope.
+8. Complaints, notices, amendments, effective date and contact process.
+9. Governing law, dispute resolution and liability wording that counsel considers enforceable and fair under applicable South African law.
+10. Accessibility and practical implications of any restriction or disclaimer.
+
+Do not add an overbroad waiver, claim that visitors surrender statutory rights, or imply that external operators are endorsed or legally authorised merely because they are mentioned.
+
+### 5.3 Affiliate Disclosure — `/affiliate-disclosure/`
+
+The final disclosure should match actual commercial arrangements and be consistent across the site. Use current official advertising guidance and the actual partner terms to check the disclosure; consider qualified advice if a material question remains unresolved. Review:
+
+1. Whether affiliate relationships currently exist and which categories of links are commercial.
+2. What action may generate compensation, stated accurately without overstating certainty.
+3. Whether compensation can affect ranking, placement, content, offers or review conclusions; explain the real editorial controls.
+4. Where readers see a short disclosure before clicking, including in tables, comparison cards, review pages, promotional pages and mobile layouts.
+5. How sponsored placements and paid advertising are labelled separately from ordinary editorial content.
+6. How operator-specific claims, ratings and comparisons are sourced, verified, dated and corrected.
+7. Whether required gambling warnings and age safeguards must accompany particular links or promotions.
+8. How the disclosure is kept current when partner relationships begin, end or change.
+
+**Suggested short-label pattern for design testing only (not legal approval):**
+
+> **Affiliate link:** We may receive a commission if you use this link and the qualifying conditions are met. This commercial relationship does not prove an operator is licensed, safe, or suitable for you. Check the operator's current terms and applicable licensing information.
+
+Use this only if it truthfully describes the actual arrangement. Before launch, check the wording and placement against current official advertising guidance and the actual commercial relationship; if a material requirement remains unclear, document it and consider qualified advice. If the link is paid/sponsored but not affiliate-tracked, label it accurately rather than using this template.
+
+## 6. Publication and UI checklist
+
+- [ ] Privacy, Terms and Affiliate Disclosure pages are linked in a persistent footer or other readily discoverable site navigation.
+- [ ] A short affiliate disclosure appears near relevant commercial links, not only on a separate policy page.
+- [ ] On mobile, disclosures remain visible and understandable without needing to open a hidden menu or scroll past the CTA.
+- [ ] Tables, cards, logos, buttons and comparison labels do not conceal that a link is commercial.
+- [ ] Disclosure text is readable, high-contrast, and not visually subordinate to the promotional claim.
+- [ ] Every commercial link has a recorded destination, partner/programme, intended product category, and evidence of the relationship.
+- [ ] No link is presented as a recommendation or verification merely because it is monetised.
+- [ ] Contact details and privacy-request instructions are tested end-to-end.
+- [ ] Any cookie/consent controls are tested for their actual behaviour; the policy matches the implementation.
+- [ ] Build output and rendered pages are checked, not just the JSON source.
+- [ ] TASK-11 checks have been completed for each commercial item being considered; any unresolved high-risk item remains unpublished. Paid counsel is not a prerequisite for the privacy-page implementation work.
+
+## 7. Suggested evidence record
+
+For each decision, maintain a record with these fields:
+
+| Field | What to capture |
+|---|---|
+| Item | Specific claim, data flow, link placement or policy clause |
+| Observed fact | What the implementation actually does |
+| Evidence | File path, deployed URL, settings export, agreement or test result |
+| Owner confirmation | Person responsible and confirmation date |
+| Legal question | Any unresolved interpretation |
+| Counsel response | Written answer or reference to restricted advice |
+| Action | Keep, rewrite, implement, remove or defer |
+| Reviewer/date | Human reviewer and actual review date |
+| Recheck trigger | Change to code, vendor, partner, data use or law |
+
+Do not commit confidential contracts, personal data, credentials, or privileged legal advice to this repository. Record only a non-confidential summary and a secure reference to restricted evidence.
+
+## 8. External legal and regulatory references for review
+
+These sources are starting points, not a substitute for counsel's current-law check:
+
+- South African Department of Forestry, Fisheries and the Environment, PAIA & POPIA overview: https://www.dffe.gov.za/legislation/paia_popia
+- National Treasury POPIA overview: https://www.treasury.gov.za/POPIA/default.aspx
+- Advertising Regulatory Board, current Codes of Advertising Practice (the ARB notes that its code is dynamic): https://www.arb.org.za/The_Codes/
+- Consumer Protection Act, 2008, section 41 (false, misleading or deceptive representations): https://www.gov.za/documents/consumer-protection-act
+
+Check current legislation, regulations, regulator guidance and the ARB code/appendices at the time of each relevant release. This document does not determine which provisions apply to a specific processing activity or advertising arrangement. If a material legal interpretation cannot be resolved from authoritative public sources, record the narrow question and hold the affected feature or claim while continuing unrelated work.
+
+## 9. Exit criteria — TASK-12 remains open until met
+
+- [ ] Owner has confirmed the legal publisher identity and working contact route.
+- [ ] Actual production deployment/domain and data-processing inventory are evidenced.
+- [ ] Actual cookies, logs, analytics, ad-tech, affiliate tracking, forms, embeds and third-party services have been tested and recorded as present/absent/unknown.
+- [ ] Active affiliate relationships and all commercial-link placements are inventoried.
+- [ ] Privacy notice, terms and affiliate disclosure have been revised to match observed facts.
+- [ ] Official guidance and available authoritative sources have been checked and dated; any unresolved legal interpretation is recorded with a proportionate interim control. Qualified advice is an escalation option for unresolved or high-impact questions, not a blanket gate for all progress.
+- [ ] All required technical controls and visible disclosures have been implemented and tested.
+- [ ] Page statuses are updated only after a human reviewer records evidence, source(s), reviewer and actual verification date.
+- [ ] A non-confidential approval summary and recheck triggers are recorded.
+
+Until the factual and implementation gates are met, the three pages remain draft frameworks and must not be described as final, verified, or legally compliant. Do not wait for paid legal advice to complete the observable fact-finding, technical tests, disclosure placement and draft revisions. Do not publish statements that are inconsistent with actual behaviour, and do not treat the absence of a lawyer's review as proof that a feature is either lawful or unlawful.
