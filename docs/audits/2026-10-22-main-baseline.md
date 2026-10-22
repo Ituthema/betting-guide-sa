@@ -3,7 +3,7 @@
 **Repository:** [Ituthema/betting-guide-sa](https://github.com/Ituthema/betting-guide-sa)  
 **Audited ref:** `main` at `d87037a3d9791a5499621cf9cb779568a3fc0392`  
 **Commit:** [Merge pull request #17](https://github.com/Ituthema/betting-guide-sa/commit/d87037a3d9791a5499621cf9cb779568a3fc0392) — expanded development plan  
-**Audit status:** Source/configuration inspection complete; executable checks and deployment verification require recorded CI/live evidence below.
+**Audit status:** Source/configuration inspection complete. The audit PR's GitHub Actions build, validation and claim-scan steps completed successfully; a production deployment result is still unverified.
 
 > This is a dated snapshot. It must not be treated as a guarantee that the branch or deployment has not changed since the audit began.
 
@@ -46,7 +46,7 @@ The workflow uses Python 3.12 and runs those commands in the same order, with `S
 
 The validator checks generated HTML for titles, descriptions, exactly one H1, duplicate title/description values, and missing local link/asset targets. The claim checker scans generated files for selected high-risk promotional phrases. These checks are useful but do not replace factual verification, browser testing, accessibility checks, or a production-site crawl.
 
-**Execution evidence:** pending until the GitHub Actions run triggered for this audit PR completes and its job steps are inspected. Do not read this section as a pass before that update is committed.
+**Execution evidence:** the GitHub Actions run triggered for this audit PR completed the build, validator, claim scan, Pages configuration and artifact upload steps successfully. Exact outputs are recorded in Section 8. This is CI evidence for the audit PR head, not proof that the current main branch's latest push deployed successfully.
 
 ## 4. GitHub Actions configuration findings
 
@@ -62,7 +62,7 @@ Jobs:
 - `build`: checkout, Python 3.12, build, validate, risky-claim scan, configure Pages, upload `dist`;
 - `deploy`: runs only for non-PR events on `refs/heads/main`, after `build` succeeds.
 
-The connector query for workflow runs associated with the merge commit returned no entries because that available query is limited to pull-request-triggered runs. This is **not evidence that no run exists or that the run failed**. Inspect the audit PR's actual workflow run and job steps before finalising status.
+The connector query for workflow runs associated with the merge commit returned no entries because that available query is limited to pull-request-triggered runs. This is **not evidence that no main-branch run exists or that it failed**. The audit PR did produce run #47, documented below; its deploy job was skipped as expected for a pull request.
 
 ## 5. Deployment configuration risks
 
@@ -109,12 +109,18 @@ A local clone was attempted in the audit environment but failed before checkout 
 Do not report local results as passed. The CI run triggered for this audit PR will be used as the reproducible execution evidence if it completes.
 
 ### GitHub Actions
-- Audit PR URL: to be recorded after creation.
-- Workflow run URL/ID: pending.
-- Build job: pending.
-- Validate step: pending.
-- Risky-claim scan step: pending.
-- Deploy job: should be skipped for pull-request events by workflow condition; this PR cannot prove a production deployment succeeded.
+- Audit PR: [#18](https://github.com/Ituthema/betting-guide-sa/pull/18), head SHA `b7900fa8bbd924fdefce456f94962e583fda0d54`.
+- Workflow run: [run #47 / ID 39756625566](https://github.com/Ituthema/betting-guide-sa/actions/runs/39756625566).
+- Build job: **success**.
+- `python scripts/build.py`: **success** — `Built 78 content pages into .../dist; SITE_URL=https://ituthema.github.io/betting-guide-sa`.
+- `python scripts/validate.py`: **success** — `PASS: 79 HTML documents; 78 direct index routes; unique titles/descriptions; local links/assets resolve.`
+- `bash scripts/check-banned-claims.sh dist`: **success** — `PASS: no unapproved high-risk promotional claims found across 80 files.`
+- Pages configuration step: **success**.
+- Upload Pages artifact step: **success**; artifact uploaded (70,102 bytes; artifact ID `12416217775`).
+- Deploy job: **skipped**, as required by the workflow condition for pull-request events.
+- Current main-branch push run: **not independently retrieved** through the available workflow-run query, which returns PR-triggered runs only. No result is inferred.
+
+A local clone was not available, so these are actual GitHub Actions outputs rather than local execution outputs.
 
 ## 9. Recommended next actions
 
@@ -128,3 +134,18 @@ Do not report local results as passed. The CI run triggered for this audit PR wi
 ## 10. Audit limitations
 
 This audit inspected the current main source files through GitHub integration and parsed the complete `content/pages.json` payload for counts. The local clone attempt was blocked by DNS/network resolution in the audit environment. Live URL retrieval did not yield an HTTP response, and the available commit-run query did not return push-triggered runs for the merge SHA. These are evidence limitations, not proof of site failure.
+
+
+## 11. Execution update — GitHub Actions audit PR run
+
+Observed on 22 October 2026. Run #47 completed with the build job conclusion `success`. The job step summaries show these steps all completed successfully: checkout, Python setup, website build, website validation, risky promotional-claim scan, Pages configuration, and artifact upload. The separate deploy job concluded `skipped`, which is expected because the workflow excludes pull-request events from deployment.
+
+Important distinction: the CI build is green for PR #18, whose code/content inputs are based on main SHA `d87037a3d9791a5499621cf9cb779568a3fc0392` plus the audit markdown file. The build consumes `content/pages.json` and repository scripts; the audit file does not alter those inputs. Nevertheless, the PR check is not a substitute for confirming the latest push-to-main workflow or live Pages deployment.
+
+The workflow log records:
+- Build: `Built 78 content pages into /home/runner/work/betting-guide-sa/betting-guide-sa/dist; SITE_URL=https://ituthema.github.io/betting-guide-sa`
+- Validator: `PASS: 79 HTML documents; 78 direct index routes; unique titles/descriptions; local links/assets resolve.`
+- Claim scan: `PASS: no unapproved high-risk promotional claims found across 80 files.`
+- Pages artifact upload: success; 70,102 bytes; SHA-256 `4c32c46ae37ef36bbfac5b626212ee4b565c41ca96139636d24b4b3d717bc1a7`.
+
+No external-link crawl, browser viewport test, accessibility audit, canonical/sitemap production fetch, custom-domain/DNS check, or main-push deployment verification was performed successfully in this audit. The site must not be labelled production-verified based on this run alone.
