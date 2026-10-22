@@ -88,7 +88,7 @@ The repository already uses `content/pages.json`, `scripts/build.py`, `scripts/v
 Why NOT to replace the current architecture now
 A migration to React, Next.js, or Astro is not justified by this document alone. The current static generator already supports distinct HTML pages and can be developed and validated from Termux. Reconsider a framework only when a measured limitation exists and a migration plan demonstrates a clear benefit.
 
-Why Vanilla SPA on GitHub Pages IS the right call
+Historical alternative considered — NOT the current recommendation (do not implement without a separately approved architecture decision)
 Zero build step — edit index.html in any text editor, git push, site is live in 90 seconds
 GitHub Pages serves static files natively — free, reliable, global CDN available via Cloudflare
 Full control over every byte of CSS and JS — no framework overhead, fastest possible load times
@@ -108,14 +108,14 @@ Styling
 CSS3 + Custom Properties
 Design token system (--navy, --gold, etc.). No Tailwind, no Bootstrap needed.
 Logic
-Vanilla ES6+ JavaScript
-Hash router, T. template helpers, accordion, cookie consent, scroll reveal animations
+Vanilla ES6+ JavaScript for progressive page interactions
+Use the existing static path routes and current assets; do not add a hash router or duplicate content model
 Fonts
 Google Fonts
 Oswald (headings) + Source Serif 4 (body text)
 Content Assembly
 Python 3 scripts
-build_standalone.py generates extension pages; patch scripts update SPA content
+Use the existing repository build script (`scripts/build.py`) and content source (`content/pages.json`)
 Version Control
 Git + GitHub
 Private repo; GitHub Pages deployed from main branch automatically
@@ -171,7 +171,7 @@ Third <script>
 getPage(), render(), initPage(), hashchange listener, click delegation, IntersectionObserver
 
 
-3.2  The Hash-Based Router — How Navigation Works
+3.2  Historical Hash-Router Example — Not Used by the Current Repository
 The router is the core engine of the SPA. It reads the URL hash, maps it to a page function, injects the result into the DOM, and runs per-page initialisation scripts. The entire site feels like a multi-page website but is actually a single file.
 
 Request Flow — Step by Step
